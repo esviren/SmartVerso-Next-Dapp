@@ -37,7 +37,7 @@ const Hero = ({
             variants={scrollAnimation}>
             <div className=" flex flex-col justify-center items-start row-start-2 sm:row-start-1">
               <h1 className="text-3xl lg:text-4xl xl:text-5xl font-medium text-black-600 leading-normal">
-                Laboratorio SmartLab <strong>Mas Alla de las fronteras</strong>.
+                Laboratorio SmartLab <strong>Más Alla de las fronteras</strong>.
               </h1>
               <p className="text-black-500 mt-4 mb-6">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut rhoncus ligula sit amet nisl tincidunt auctor.
@@ -49,7 +49,7 @@ const Hero = ({
               <motion.div className="h-full w-full" variants={scrollAnimation}>
                 <Image
                   src="/assets/Illustration1.png"
-                  alt="VPN Illustrasi"
+                  alt="SmartLAB Illustrasi"
                   quality={100}
                   width={612}
                   height={383}

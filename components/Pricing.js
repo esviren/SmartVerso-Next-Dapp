@@ -256,7 +256,7 @@ const Pricing = () => {
                   <h5 className="text-black-600 text-xl sm:text-2xl lg:text-3xl leading-relaxed font-medium">
                     Suscribete <br /> Para conocer nustros desarrollo!
                   </h5>
-                  <p>Permanese al dia en SmartLab</p>
+                  <p>Permanece al dia en SmartLab</p>
                 </div>
                 <ButtonPrimary>Suscríbete</ButtonPrimary>
               </div>
