@@ -19,7 +19,7 @@ const Testimoni = ({
         "Wow... I am very happy to use this SmartVerso, it turned out to be more than my expectations and so far there have been no problems. LaslesSmartVerso always the best",
     },
     {
-      name: "Jorge Albare",
+      name: "Jorge Alvarez",
       image: "/assets/people-3.png",
       city: "Medellín",
       country: "Cetropolis",
@@ -44,6 +44,15 @@ const Testimoni = ({
       rating: "4.5",
       testimoni:
         "Wow... I am very happy to use this SmartVerso, it turned out to be more than my expectations and so far there have been no problems. LaslesSmartVerso always the best",
+    },
+    {
+      name: "Steevens Rodriguez",
+      image: "/assets/people-3.png",
+      city: "Medellín",
+      country: "Roblekistan",
+      rating: "4.5",
+      testimoni:
+        "Soy desorrollador Web especializado en bockchain. He sido un entusiasta y apasionado por la informática y las nuevas tecnologías. Siempre en un constante aprendizaje en pro de la mejora de mi entorno y el crecimiento personal.",
     },
   ],
 }) => {
