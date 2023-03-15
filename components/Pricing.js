@@ -33,7 +33,7 @@ const Pricing = () => {
               and cheerfully.
             </motion.p>
           </ScrollAnimationWrapper>
-          <div className="grid grid-flow-row sm:grid-flow-col grid-cols-1 sm:grid-cols-3 gap-4 lg:gap-12 py-8 lg:py-12 px-6 sm:px-0 lg:px-6">
+          <div className="grid grid-flow-row sm:grid-flow-col grid-cols-1 sm:grid-cols-3 gap-8 lg:gap-12 py-8 lg:py-12 px-6 sm:px-0 lg:px-6">
             <ScrollAnimationWrapper className="flex justify-center">
               <motion.div
                 variants={scrollAnimation}
@@ -84,7 +84,7 @@ const Pricing = () => {
             <ScrollAnimationWrapper className="flex justify-center">
               <motion.div
                 variants={scrollAnimation}
-                className="flex flex-col justify-center items-center border-2 border-gray-500 rounded-xl py-4 px-6 lg:px-12 xl:px-20"
+                className="flex flex-col justify-center items-center border-2 border-gray-500 rounded-xl py-4 px-6 md:px-8 lg:px-12 xl:px-20"
                 whileHover={{
                   scale : 1.1,
                   transition: {
@@ -256,7 +256,7 @@ const Pricing = () => {
                   <h5 className="text-black-600 text-xl sm:text-2xl lg:text-3xl leading-relaxed font-medium">
                     Suscribete <br /> Para conocer nustros desarrollo!
                   </h5>
-                  <p>Permanece al dia en SmartLab</p>
+                  <p>Permanece al día con SmartLab</p>
                 </div>
                 <ButtonPrimary>Suscríbete</ButtonPrimary>
               </div>

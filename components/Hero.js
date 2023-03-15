@@ -9,18 +9,18 @@ const Hero = ({
   listUser = [
     {
       name: "Realidad Aumentada",
-      number: "390",
-      icon: "/assets/Icon/heroicons_sm-user.svg",
+      number: "AR",
+      icon: "/assets/Icon/XR2.svg",
     },
     {
       name: "Realidad Virtual",
-      number: "20",
-      icon: "/assets/Icon/gridicons_location.svg",
+      number: "VR",
+      icon: "/assets/Icon/VR2.svg",
     },
     {
       name: "Realidad Mixta",
-      number: "50",
-      icon: "/assets/Icon/bx_bxs-server.svg",
+      number: "XR",
+      icon: "/assets/Icon/MIX2.svg",
     },
   ],
 }) => {
@@ -40,8 +40,9 @@ const Hero = ({
                 Laboratorio SmartLab <strong>Más Alla de las fronteras</strong>.
               </h1>
               <p className="text-black-500 mt-4 mb-6">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut rhoncus ligula sit amet nisl tincidunt auctor.
-                Mauris bibendum in dui nec semper. Suspendisse ornare enim sit amet sapien tincidunt elementum.
+                crecimiento social y educativo por medio de las nuevas tecnologías,
+                 como lo son la realidad virtual, la realidad aumentada, la
+                realidad mixta y las blockchain.
               </p>
               <ButtonPrimary>Servicios</ButtonPrimary>
             </div>
@@ -49,7 +50,7 @@ const Hero = ({
               <motion.div className="h-full w-full" variants={scrollAnimation}>
                 <Image
                   src="/assets/Illustration1.png"
-                  alt="SmartLAB Illustrasi"
+                  alt="SmartLav illustration"
                   quality={100}
                   width={612}
                   height={383}
@@ -70,8 +71,8 @@ const Hero = ({
               variants={scrollAnimation}
             >
               <div className="flex mx-auto w-40 sm:w-auto">
-                <div className="flex items-center justify-center bg-orange-100 w-12 h-12 mr-6 rounded-full">
-                  <img src={listUsers.icon} className="h-6 w-6" />
+                <div className="flex items-center justify-center bg-gray-100 w-28 h-28 mr-6 rounded-full">
+                  <img src={listUsers.icon} className="h-20 w-20" />
                 </div>
                 <div className="flex flex-col">
                   <p className="text-xl text-black-600 font-bold">
