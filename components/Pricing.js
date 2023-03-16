@@ -7,6 +7,7 @@ import Maps from "../public/assets/HugeGlobal.svg";
 import { motion } from "framer-motion";
 import getScrollAnimation from "../utils/getScrollAnimation";
 import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
+import Link from "next/link";
 
 const Pricing = () => {
   const scrollAnimation = useMemo(() => getScrollAnimation(), []);
@@ -23,21 +24,20 @@ const Pricing = () => {
               variants={scrollAnimation}
               className="text-2xl sm:text-3xl lg:text-4xl font-medium text-black-600 leading-relaxed"
             >
-              SmartVerso
+              Servicios
             </motion.h3>
             <motion.p
               variants={scrollAnimation}
               className="leading-normal w-10/12 sm:w-7/12 lg:w-6/12 mx-auto my-2 text-center"
             >
-              Let's choose the Smartverso area that is best for you and explore it happily
-              and cheerfully.
+              Nuestros principales pilares comerciales que demuestran el Alcance e impacto de SmartLAB. Siempre estando a la vanguardia tecnológica.
             </motion.p>
           </ScrollAnimationWrapper>
-          <div className="grid grid-flow-row sm:grid-flow-col grid-cols-1 sm:grid-cols-3 gap-8 lg:gap-12 py-8 lg:py-12 px-6 sm:px-0 lg:px-6">
+          <div className="grid grid-flow-row lg:grid-flow-col md:grid-flow-col sm:grid-flow-col grid-cols-1 md:grid-cols-3 sm:grid-cols-3 gap-8 md:gap-8 lg:gap-12 py-8 lg:py-12 px-6 sm:px-0 lg:px-6">
             <ScrollAnimationWrapper className="flex justify-center">
               <motion.div
                 variants={scrollAnimation}
-                className="flex flex-col justify-center items-center border-2 border-gray-500 rounded-xl py-4 px-6 lg:px-12 xl:px-20"
+                className="flex flex-col md:flex-col justify-center items-center border-2 border-gray-500 rounded-xl py-4 px-6 lg:px-12 xl:px-20"
                 whileHover={{
                   scale : 1.1,
                   transition: {
@@ -54,30 +54,37 @@ const Pricing = () => {
                   />
                 </div>
                 <p className="text-lg text-black-600 font-medium capitalize my-2 sm:my-7">
-                  Free Play
+                  Desarrollo 3D
                 </p>
                 <ul className="flex flex-col list-inside pl-6 xl:pl-0 items-start justify-start text-left text-black-500 flex-grow">
                   <li className="relative check custom-list my-2">
-                    sube tus modelos 3D
+                    Aplicaciones VR
                   </li>
                   <li className="relative check custom-list my-2">
-                    Vende NFTs
+                    Aplicaciones AR
                   </li>
                   <li className="relative check custom-list my-2">
-                    Mini Juegos
+                    Aplicaciones 3D Mixtas
                   </li>
                   <li className="relative check custom-list my-2">
-                    Interactua comunidad 3D
+                    Video Juegos
                   </li>
                   <li className="relative check custom-list my-2">
-                    Gana SmartVesro Coins
+                    Experiencias Formativas
+                  </li>
+                  <li className="relative check custom-list my-2">
+                    Experiencias Comerciales 
                   </li>
                 </ul>
                 <div className="flex flex-col w-full justify-center mb-8 flex-none mt-12">
                   <p className="text-2xl text-black-600 text-center mb-4 ">
-                    Free Play
+                    AR + VR = XR 
                   </p>
-                  <ButtonOutline>Conoce Más</ButtonOutline>
+                  <Link href={"/desarrollo-3d"}>
+                    <a>
+                      <ButtonOutline>Conoce Más</ButtonOutline>
+                    </a>
+                  </Link>
                 </div>
               </motion.div>
             </ScrollAnimationWrapper>
@@ -101,30 +108,34 @@ const Pricing = () => {
                 />
               </div>
               <p className="text-lg text-black-600 font-medium capitalize my-2 sm:my-7">
-                Tierras {"NFTs"}
+                Educación {"Tecnológica"}
               </p>
               <ul className="flex flex-col list-inside pl-6 xl:pl-0 items-start justify-start text-left text-black-500 flex-grow">
                 <li className="relative check custom-list my-2">
-                  Inicia en zona caliente
+                  Modelado 3D
                 </li>
                 <li className="relative check custom-list my-2">
-                  realiza eventos 
+                  Experiencias Eduativas
                 </li>
                 <li className="relative check custom-list my-2">
-                  Personaliza tu espacio
+                  Capacitación Empresarieal
                 </li>
                 <li className="relative check custom-list my-2">
-                  Comercio de Tierras NFT
+                  Capacitacion de Cliente
                 </li>
                 <li className="relative check custom-list my-2">
-                  {"Propiedad Raiz Digital "}
+                  {"Cripto Monedas y Activos Digitales"}
                 </li>
               </ul>
               <div className="flex flex-col w-full justify-center mb-8 flex-none mt-12">
                 <p className="text-2xl text-black-600 text-center mb-4 ">
-                  Pioneros <span className="text-black-500">/ mo</span>
+                  Programas <span className="text-black-500">3D</span>
                 </p>
-                <ButtonOutline>Conoce Más</ButtonOutline>
+                <Link href={"/educacion-tecnologica"}>
+                    <a>
+                      <ButtonOutline>Conoce Más</ButtonOutline>
+                    </a>
+                  </Link>
               </div>
               </motion.div>
             </ScrollAnimationWrapper>
@@ -148,34 +159,37 @@ const Pricing = () => {
                 />
               </div>
               <p className="text-lg text-black-600 font-medium capitalize my-2 sm:my-7">
-                Espacios Comerciales{" "}
+                Software y  {"Aplicaciones "}
               </p>
               <ul className="flex flex-col list-inside pl-6 xl:pl-0 items-start justify-start text-left text-black-500 flex-grow">
                 <li className="relative check custom-list my-2">
-                  Comercio Experiencial
+                  Web APPs
                 </li>
                 <li className="relative check custom-list my-2">
-                  Vende Productos en el Metaverso
+                  DAPPs
                 </li>
                 <li className="relative check custom-list my-2">
-                  Posisionamiento de marca
+                  Blockchain
                 </li>
                 <li className="relative check custom-list my-2">
-                  Productos NFT
+                  APPs multiplataforma
                 </li>
                 <li className="relative check custom-list my-2">
-                  Eventos en {"El Metaverso "}
+                  Software Offline
                 </li>
                 <li className="relative check custom-list my-2">
-                  Clientes {"en liena"}
+                  SQL {"Data Bases"}
                 </li>
               </ul>
               <div className="flex flex-col w-full justify-center mb-8 flex-none mt-12">
                 <p className="text-2xl text-black-600 text-center mb-4 ">
-                  Empresarial <span className="text-black-500">VR</span>
+                  Empresarial <span className="text-black-500"></span>
                 </p>
-
-                <ButtonOutline>Conoce Más</ButtonOutline>
+                <Link href={"/softwareaplicaciones"}>
+                  <a>
+                    <ButtonOutline>Conoce Más</ButtonOutline>
+                  </a>
+                </Link>
               </div>
               </motion.div>
             </ScrollAnimationWrapper>

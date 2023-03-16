@@ -78,7 +78,7 @@ const Header = () => {
                   : " text-black-500 hover:text-teal-500 ")
               }
             >
-              desarrollo web
+              Servicios
             </LinkScroll>
             <LinkScroll
               activeClass="active"
@@ -102,10 +102,14 @@ const Header = () => {
           <div className="col-start-10 col-end-12 font-medium flex justify-end items-center">
             <Link href="/">
               <a className="text-black-600 mx-2 sm:mx-4 capitalize tracking-wide hover:text-teal-500 transition-all">
-                  Registro
+                  XR
               </a>
             </Link>
-            <ButtonOutline>LogIn</ButtonOutline>
+            <Link href="/">
+              <a>
+                <ButtonOutline>Home</ButtonOutline>
+              </a>
+            </Link>
           </div>
         </nav>
       </header>
@@ -208,7 +212,7 @@ const Header = () => {
                   d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
                 />
               </svg>
-              SmartVerso
+              Servicios
             </LinkScroll>
             <LinkScroll
               activeClass="active"

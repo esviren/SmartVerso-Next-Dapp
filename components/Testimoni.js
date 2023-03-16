@@ -16,7 +16,16 @@ const Testimoni = ({
       country: "Caisedonia",
       rating: "4.5",
       testimoni:
-        "Wow... I am very happy to use this SmartVerso, it turned out to be more than my expectations and so far there have been no problems. LaslesSmartVerso always the best",
+        " Comunicador social.",
+    },
+    {
+      name: "Arley Sanchez",
+      image: "/assets/people-1.png",
+      city: "Medellín",
+      country: "Caisedonia",
+      rating: "4.5",
+      testimoni:
+        "Negociador internacional.",
     },
     {
       name: "Jorge Alvarez",
@@ -25,7 +34,7 @@ const Testimoni = ({
       country: "Cetropolis",
       rating: "4.5",
       testimoni:
-        "Wow... I am very happy to use this SmartVerso, it turned out to be more than my expectations and so far there have been no problems. LaslesSmartVerso always the best",
+        "Tecnólogo en animación 3D y experto en producción 2D y 3D ademas de integración multilenguaje",
     },
     {
       name: "Oswaldo Ramires",
@@ -34,16 +43,34 @@ const Testimoni = ({
       country: "Cetropolis",
       rating: "4.5",
       testimoni:
-        "Wow... I am very happy to use this SmartVerso, it turned out to be more than my expectations and so far there have been no problems. LaslesSmartVerso always the best",
+        " Escritor y redactor de producción",
     },
     {
-      name: "Andres Alexander Berrio",
+      name: "Andrés Ocampo",
       image: "/assets/people-3.png",
       city: "Medellín",
-      country: "Sta. Elene",
+      country: "Sta. Eleña",
       rating: "4.5",
       testimoni:
-        "Wow... I am very happy to use this SmartVerso, it turned out to be more than my expectations and so far there have been no problems. LaslesSmartVerso always the best",
+        "Administrador de empresas, experto en gestión de personal",
+    },
+    {
+      name: "Jhon Sebastian Giraldo",
+      image: "/assets/people-3.png",
+      city: "Medellín",
+      country: "Caisedonia",
+      rating: "4.5",
+      testimoni:
+        "Técnico en desarrollo de software, experto en seguridad informática",
+    },
+    {
+      name: "Alexander Durango",
+      image: "/assets/people-3.png",
+      city: "Medellín",
+      country: "Cetropolis",
+      rating: "4.5",
+      testimoni:
+        "Tecnólogo en diseño gráfico, experto en modelado 3D",
     },
     {
       name: "Steevens Rodriguez",
@@ -52,7 +79,7 @@ const Testimoni = ({
       country: "Roblekistan",
       rating: "4.5",
       testimoni:
-        "Soy desorrollador Web especializado en bockchain. He sido un entusiasta y apasionado por la informática y las nuevas tecnologías. Siempre en un constante aprendizaje en pro de la mejora de mi entorno y el crecimiento personal.",
+        "Tecnólogo en Analisis y Desarrollo de Sistemas de Información, Técnico en sistemas, experto en escritura de código BlockChain e integración multilenguaje",
     },
   ],
 }) => {
