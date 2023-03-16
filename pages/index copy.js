@@ -7,7 +7,7 @@ import SeoHead from "../components/SeoHead";
 export default function Home() {
   return (
     <>
-      <SeoHead title='SmartLAB - Portafolio' />
+      <SeoHead title='SmartLAB Landing Page' />
       <Layout>
         <Hero />
         <Feature />
