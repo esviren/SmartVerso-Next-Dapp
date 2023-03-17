@@ -118,7 +118,7 @@ const Pricing = () => {
                   Experiencias Eduativas
                 </li>
                 <li className="relative check custom-list my-2">
-                  Capacitación Empresarieal
+                  Capacitación Empresarial
                 </li>
                 <li className="relative check custom-list my-2">
                   Capacitacion de Cliente
@@ -179,6 +179,9 @@ const Pricing = () => {
                 </li>
                 <li className="relative check custom-list my-2">
                   SQL {"Data Bases"}
+                </li>
+                <li className="relative check custom-list my-2">
+                  {"E-Commerce"}
                 </li>
               </ul>
               <div className="flex flex-col w-full justify-center mb-8 flex-none mt-12">
