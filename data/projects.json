@@ -2,45 +2,87 @@
     "projects_3d": [
         {
             "id": "1",
-            "title": "Project One Test",
-            "description": "Web Design",
+            "title": "Desarrollo 3D",
+            "description": "Set zen vr para metaverso 3d plates",
             "imageSrc": "https://images.unsplash.com/photo-1487837647815-bbc1f30cd0d2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Njl8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-            "url": "http://chetanverma.com/"
+            "url": "https://www.youtube.com/watch?v=6Q5Uyx0Yp2k"
         },
         {
             "id": "2",
-            "title": "Project Two",
-            "description": "Web Development",
+            "title": "Desarrollo 3D",
+            "description": "Cucutú videogame unreal engine",
             "imageSrc": "https://images.unsplash.com/photo-1605153864431-a2795a1b2f95?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwyNTY3ODl8fGVufDB8fHw%3D&auto=format&fit=crop&w=400&q=60",
-            "url": "http://chetanverma.com/"
+            "url": "https://youtu.be/lnHlbAKcQCg"
         },
         {
             "id": "3",
-            "title": "Project Three",
-            "description": "Design",
+            "title": "Desarrollo 3D",
+            "description": "Realidad aumentada, Universidad EIA",
             "imageSrc": "https://images.unsplash.com/photo-1504083898675-c896ecdae86e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjJ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-            "url": "http://chetanverma.com/"
+            "url": "https://youtu.be/NYj3huo7yXg"
         },
         {
             "id": "4",
-            "title": "Project Four",
-            "description": "Marketing",
+            "title": "Desarrollo 3D",
+            "description": "Realidad aumentada para medios impresos",
             "imageSrc": "https://images.unsplash.com/photo-1492171983775-a51717616c0d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NjB8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-            "url": "http://chetanverma.com/"
+            "url": "https://youtu.be/L7Zr3lOEyu8"
         },
         {
             "id": "5",
-            "title": "Project Five",
-            "description": "Development",
+            "title": "Desarrollo 3D",
+            "description": "Realidad aumentada inmersiva, espacios arquitectónicos",
             "imageSrc": "https://images.unsplash.com/photo-1534239143101-1b1c627395c5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NzZ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-            "url": "http://chetanverma.com/"
+            "url": "https://youtu.be/BPnCBD-NxOU"
         },
         {
             "id": "6",
-            "title": "Project Six",
-            "description": "Design & Development",
+            "title": "Desarrollo 3D",
+            "description": "Diseño de espacios arquitectonicos",
             "imageSrc": "https://images.unsplash.com/photo-1517479149777-5f3b1511d5ad?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTAyfHxwYXN0ZWx8ZW58MHx8MHw%3D&auto=format&fit=crop&w=400&q=60",
-            "url": "http://chetanverma.com/"
+            "url": "https://youtu.be/JAXkLw4SQwE"
+        },
+        {
+            "id": "7",
+            "title": "Desarrollo 3D",
+            "description": "Producción 3D para producción audiovisual de comerciales",
+            "imageSrc": "https://images.unsplash.com/photo-1517479149777-5f3b1511d5ad?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTAyfHxwYXN0ZWx8ZW58MHx8MHw%3D&auto=format&fit=crop&w=400&q=60",
+            "url": "https://youtu.be/IHwcUV_VT70"
+        },
+        {
+            "id": "8",
+            "title": "Desarrollo 2D",
+            "description": "Animación 2D",
+            "imageSrc": "https://images.unsplash.com/photo-1517479149777-5f3b1511d5ad?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTAyfHxwYXN0ZWx8ZW58MHx8MHw%3D&auto=format&fit=crop&w=400&q=60",
+            "url": "https://youtu.be/8403ooJ7zm0"
+        },
+        {
+            "id": "9",
+            "title": "Desarrollo 3D",
+            "description": "Creación de metahumanos",
+            "imageSrc": "https://images.unsplash.com/photo-1517479149777-5f3b1511d5ad?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTAyfHxwYXN0ZWx8ZW58MHx8MHw%3D&auto=format&fit=crop&w=400&q=60",
+            "url": "https://youtu.be/JAXkLw4SQwE"
+        },
+        {
+            "id": "10",
+            "title": "Desarrollo 3D",
+            "description": "Producción audiovisual video corporativo",
+            "imageSrc": "https://images.unsplash.com/photo-1517479149777-5f3b1511d5ad?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTAyfHxwYXN0ZWx8ZW58MHx8MHw%3D&auto=format&fit=crop&w=400&q=60",
+            "url": "https://youtu.be/gZAdbv1JKh0"
+        },
+        {
+            "id": "11",
+            "title": "Desarrollo 2D & 3D",
+            "description": "Producción audiovisual 2D y 3D",
+            "imageSrc": "https://images.unsplash.com/photo-1517479149777-5f3b1511d5ad?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTAyfHxwYXN0ZWx8ZW58MHx8MHw%3D&auto=format&fit=crop&w=400&q=60",
+            "url": "https://youtu.be/GxgC1fqWt5o"
+        },
+        {
+            "id": "12",
+            "title": "Desarrollo Videojuegos",
+            "description": "Desarrollo de videojuegos para ps",
+            "imageSrc": "https://images.unsplash.com/photo-1517479149777-5f3b1511d5ad?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTAyfHxwYXN0ZWx8ZW58MHx8MHw%3D&auto=format&fit=crop&w=400&q=60",
+            "url": "https://youtu.be/juZzU1edC3U"
         }
     ],
     "web-projects": [
@@ -49,7 +91,7 @@
             "title": "Project One Test",
             "description": "Web Design",
             "imageSrc": "https://images.unsplash.com/photo-1487837647815-bbc1f30cd0d2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Njl8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-            "url": "http://chetanverma.com/"
+            "url": "https://youtu.be/JAXkLw4SQwE"
         },
         {
             "id": "2",

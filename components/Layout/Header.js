@@ -97,7 +97,7 @@ const Header = () => {
                     : " text-black-500 hover:text-teal-500 ")
                 }
               >
-                Equipo
+                Proyectos
               </LinkScroll>
             </Link>
           </ul>
