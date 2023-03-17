@@ -6,7 +6,7 @@ import SeoHead from "../components/SeoHead";
 export default function CategoryEducacionTecnologica() {
   return (
     <>
-      <SeoHead title='EDucación Tecnológica Medellín - SmartLAB' />
+      <SeoHead title='Educación en Tecnología 3D Medellín - SmartLAB'/>
       <Layout>
         <RealidadVirtual />
       </Layout>

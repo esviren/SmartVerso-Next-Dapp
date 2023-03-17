@@ -10,7 +10,7 @@ const Hero = ({
     {
       name: "Realidad Aumentada",
       number: "AR",
-      icon: "/assets/Icon/XR2.svg",
+      icon: "/assets/Icon/AR2.svg",
     },
     {
       name: "Realidad Virtual",
@@ -71,7 +71,7 @@ const Hero = ({
               variants={scrollAnimation}
             >
               <div className="flex mx-auto w-40 sm:w-auto">
-                <div className="flex items-center justify-center bg-gray-100 w-28 h-28 mr-6 sm:w-28 rounded-full">
+                <div className="flex items-center justify-center bg-gray-100 w-28 h-28 mr-6 sm:w-28 sm:h-28 rounded-full">
                   <img src={listUsers.icon} className="h-20 w-20" />
                 </div>
                 <div className="flex flex-col">
