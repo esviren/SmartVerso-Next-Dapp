@@ -11,7 +11,7 @@ const Testimoni = ({
   listTestimoni = [
     {
       name: "Stevenson Cardona",
-      image: "/assets/people-1.png",
+      image: "/assets/Stevenson.png",
       city: "Medellín",
       country: "Caisedonia",
       rating: "4.5",
@@ -38,7 +38,7 @@ const Testimoni = ({
     },
     {
       name: "Oswaldo Ramires",
-      image: "/assets/people-1.png",
+      image: "/assets/Oswall.png",
       city: "Medellín",
       country: "Cetropolis",
       rating: "4.5",
@@ -47,7 +47,7 @@ const Testimoni = ({
     },
     {
       name: "Andrés Ocampo",
-      image: "/assets/people-3.png",
+      image: "/assets/Andres.png",
       city: "Medellín",
       country: "Sta. Eleña",
       rating: "4.5",
@@ -55,8 +55,8 @@ const Testimoni = ({
         "Administrador de empresas, experto en gestión de personal",
     },
     {
-      name: "Jhon Sebastian Giraldo",
-      image: "/assets/people-3.png",
+      name: "Jhon Sebastian G.",
+      image: "/assets/Ruso.png",
       city: "Medellín",
       country: "Caisedonia",
       rating: "4.5",
@@ -65,7 +65,7 @@ const Testimoni = ({
     },
     {
       name: "Alexander Durango",
-      image: "/assets/people-3.png",
+      image: "/assets/Alexander.png",
       city: "Medellín",
       country: "Cetropolis",
       rating: "4.5",
@@ -74,9 +74,9 @@ const Testimoni = ({
     },
     {
       name: "Steevens Rodriguez",
-      image: "/assets/people-3.png",
+      image: "/assets/Steevens.png",
       city: "Medellín",
-      country: "Roblekistan",
+      country: "Desarrollador FullStack",
       rating: "4.5",
       testimoni:
         "Tecnólogo en Analisis y Desarrollo de Sistemas de Información, Técnico en sistemas, experto en escritura de código BlockChain e integración multilenguaje",

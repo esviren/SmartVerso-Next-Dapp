@@ -25,12 +25,12 @@ const Educacion3D = () => {
         <ScrollAnimationWrapper className="flex w-full justify-end">
           <motion.div className="h-full w-full p-4" variants={scrollAnimation}>
             <Image
-              src="/assets/Illustration2.png"
+              src="/assets/smartlab-img3.png"
               alt="VPN Illustrasi"
               layout="responsive"
               quality={100}
-              height={414}
-              width={508}
+              height={386}
+              width={612}
             />
           </motion.div>
         </ScrollAnimationWrapper>
@@ -107,12 +107,12 @@ const Educacion3D = () => {
 
             <motion.div className="h-full w-full p-4" variants={scrollAnimation}>
               <Image
-                src="/assets/Illustration2.png"
-                alt="SmartLAB Illustra"
+                src="/assets/smartlab-img4.png"
+                alt="SmartLAB Educación Realidad Virtual"
                 layout="responsive"
                 quality={100}
-                height={414}
-                width={508}
+                height={383}
+                width={612}
               />
             </motion.div>
             </div>
