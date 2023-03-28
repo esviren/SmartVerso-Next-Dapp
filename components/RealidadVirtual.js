@@ -5,14 +5,14 @@ import getScrollAnimation from "../utils/getScrollAnimation";
 import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
 
 const RealidadVirtuals = [
-  "Video Vuegos",
-  "APP Educativas",
-  "Educacion 3D",
+  "Realidad Virtual",
+  "Realidad Aumentada",
+  "Realidad Mixta",
   "Hardware VR",
-  "Aplicaciones Decentralizadas",
-  "BockChain",
-  "Educación Modelado 3D",
-  "SmarVerso"
+  "Metaverso",
+  "Educación Empresarial",
+  "SmarVerso",
+  "Videojuegos"
 ]
 
 const RealidadVirtual = () => {
@@ -27,8 +27,8 @@ const RealidadVirtual = () => {
         <ScrollAnimationWrapper className="flex w-full justify-end">
           <motion.div className="h-full w-full p-4" variants={scrollAnimation}>
             <Image
-              src="/assets/Illustration2.png"
-              alt="VPN Illustrasi"
+              src="/assets/smartlab-img2.png"
+              alt="SmartLAB Desarrollo 3D"
               layout="responsive"
               quality={100}
               height={414}

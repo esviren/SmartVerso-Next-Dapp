@@ -49,7 +49,7 @@ const Hero = ({
             <div className="flex w-full">
               <motion.div className="h-full w-full" variants={scrollAnimation}>
                 <Image
-                  src="/assets/Illustration1.png"
+                  src="/assets/smartlab-img1.png"
                   alt="SmartLav illustration"
                   quality={100}
                   width={612}
