@@ -4,30 +4,31 @@ import { motion } from "framer-motion";
 import getScrollAnimation from "../utils/getScrollAnimation";
 import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
 
-const features = [
-  "Realid Aumetada",
-  "Realidad Virtual",
-  "Realidad Mixta",
-  "Educación modelado 3D",
-  "Web App",
-  "DAPPs (Aplicaciones Blockchain)",
-  "SmarVerso"
+const RealidadVirtuals = [
+  "Aplicaiones Web",
+  "Apps Mobile",
+  "Sistemas SQL",
+  "Web 3.0",
+  "Cadena de Bloques",
+  "Aplicaciones de Escritorio",
+  "Android",
+  "Automatización"
 ]
 
-const Feature = () => {
+const RealidadVirtual = () => {
   const scrollAnimation = useMemo(() => getScrollAnimation(), []);
 
   return (
     <div
-      className="max-w-screen-xl mt-32 mb-6 sm:mt-18 sm:mb-14 px-6 sm:px-8 lg:px-16 mx-auto"
-      id="feature"
+      className="max-w-screen-xl mb-6 sm:mt-14 sm:mb-14 px-6 sm:px-8 lg:px-16 mx-auto"
+      id="RealidadVirtual"
     >
-      <div className="grid grid-flow-row sm:grid-flow-col grid-cols-1 sm:grid-cols-2 gap-4 p  y-8 my-8">
+      <div className="grid grid-flow-row sm:grid-flow-col grid-cols-1 sm:grid-cols-2 gap-8 p mt-32 y-8 my-12">
         <ScrollAnimationWrapper className="flex w-full justify-end">
           <motion.div className="h-full w-full p-4" variants={scrollAnimation}>
             <Image
-              src="/assets/smartlab_img2.png"
-              alt="SmartLAB Servicios"
+              src="/assets/smartlab_img6.png"
+              alt="SmartLAB Desarrollo 3D"
               layout="responsive"
               quality={100}
               height={383}
@@ -36,27 +37,29 @@ const Feature = () => {
           </motion.div>
         </ScrollAnimationWrapper>
         <ScrollAnimationWrapper>
-        <motion.div className="flex flex-col items-end justify-center ml-auto w-full lg:w-9/12" variants={scrollAnimation}>
+
+        <motion.div className="flex flex-col items-end justify-center mt-0 ml-auto w-full lg:w-9/12" variants={scrollAnimation}>
           <h3 className="text-3xl lg:text-4xl font-medium leading-relaxed text-black-600">
-            Experiencias Tecnologicas Para Diferentes Dispositivos
+            Desarrollo de Software y Aplicaciones
           </h3>
           <p className="my-2 text-black-500 text-justify">
-          ¡Bienvenidos al Smart Lab! Somos un laboratorio de realidad virtual ubicado en Medellín, Colombia, que ofrece experiencias de inmersión en mundos virtuales para diversas aplicaciones. En Smart Lab, estamos comprometidos con la innovación y la tecnología de vanguardia. Utilizamos equipos y software de última generación para garantizar la mejor calidad en nuestras experiencias de realidad virtual. Si está buscando una experiencia única y emocionante de realidad virtual, no busque más allá de Smart Lab en Medellín. ¡Esperamos verlo pronto en nuestro laboratorio!
+          El Area de desarrollo de software y aplicaciones ofrecemos una amplia variedad de servicios para ayudar a sus clientes a diseñar, desarrollar, 
+          implementar y mantener aplicaciones y sistemas informáticos personalizados que se adapten a sus necesidades y requisitos específicos.
           </p>
           <ul className="text-black-500 self-start list-inside ml-8">
-            {features.map((feature, index) => (
+            {RealidadVirtuals.map((RealidadVirtual, index) => (
               <motion.li
                 className="relative circle-check custom-list"
                 custom={{duration: 2 + index}}
                 variants={scrollAnimation}
-                key={feature}
+                key={RealidadVirtual}
                 whileHover={{
                 scale : 1.1,
                 transition: {
                   duration: .2
                 }
                 }}>
-                  {feature}
+                  {RealidadVirtual}
               </motion.li>
               )
             )}
@@ -68,4 +71,4 @@ const Feature = () => {
   );
 };
 
-export default Feature;
+export default RealidadVirtual;

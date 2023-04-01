@@ -12,8 +12,8 @@ const Testimoni = ({
     {
       name: "Stevenson Cardona",
       image: "/assets/Stevenson.png",
-      city: "Medellín",
-      country: "Caisedonia",
+      city: "CEO",
+      country: "PRINCIPAL",
       rating: "4.5",
       testimoni:
         " Comunicador social.",
@@ -21,8 +21,8 @@ const Testimoni = ({
     {
       name: "Arley Sanchez",
       image: "/assets/people-1.png",
-      city: "Medellín",
-      country: "Caisedonia",
+      city: "CEO",
+      country: "COMERCIAL",
       rating: "4.5",
       testimoni:
         "Negociador internacional.",
@@ -30,8 +30,8 @@ const Testimoni = ({
     {
       name: "Jorge Alvarez",
       image: "/assets/people-3.png",
-      city: "Medellín",
-      country: "Cetropolis",
+      city: "Líder",
+      country: "DESARROLLO 3D",
       rating: "4.5",
       testimoni:
         "Tecnólogo en animación 3D y experto en producción 2D y 3D ademas de integración multilenguaje",
@@ -39,8 +39,8 @@ const Testimoni = ({
     {
       name: "Oswaldo Ramires",
       image: "/assets/Oswall.png",
-      city: "Medellín",
-      country: "Cetropolis",
+      city: "CEO",
+      country: "PRODUCTOR",
       rating: "4.5",
       testimoni:
         " Escritor y redactor de producción",
@@ -48,8 +48,8 @@ const Testimoni = ({
     {
       name: "Andrés Ocampo",
       image: "/assets/Andres.png",
-      city: "Medellín",
-      country: "Sta. Eleña",
+      city: "CEO",
+      country: "ADMINISTRADOR",
       rating: "4.5",
       testimoni:
         "Administrador de empresas, experto en gestión de personal",
@@ -57,8 +57,8 @@ const Testimoni = ({
     {
       name: "Jhon Sebastian G.",
       image: "/assets/Ruso.png",
-      city: "Medellín",
-      country: "Caisedonia",
+      city: "Líder",
+      country: "BACKEND DEV",
       rating: "4.5",
       testimoni:
         "Técnico en desarrollo de software, experto en seguridad informática",
@@ -66,8 +66,8 @@ const Testimoni = ({
     {
       name: "Alexander Durango",
       image: "/assets/Alexander.png",
-      city: "Medellín",
-      country: "Cetropolis",
+      city: "Líder",
+      country: "MULTIMEDIA",
       rating: "4.5",
       testimoni:
         "Tecnólogo en diseño gráfico, experto en modelado 3D",
@@ -75,11 +75,11 @@ const Testimoni = ({
     {
       name: "Steevens Rodriguez",
       image: "/assets/Steevens.png",
-      city: "Medellín",
-      country: "Desarrollador FullStack",
+      city: "Líder",
+      country: "FULLSTACK DEV",
       rating: "4.5",
       testimoni:
-        "Tecnólogo en Analisis y Desarrollo de Sistemas de Información, Técnico en sistemas, experto en escritura de código BlockChain e integración multilenguaje",
+        "Apasionado por el software libre experto en escritura de código BlockChain e integración multilenguaje",
     },
   ],
 }) => {

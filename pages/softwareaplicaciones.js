@@ -1,4 +1,4 @@
-import RealidadVirtual from "../components/RealidadVirtual";
+import SoftwareAplicaciones from "../components/SoftwareAplicaciones";
 import Hero from "../components/Hero";
 import Layout from "../components/Layout/Layout";
 import SeoHead from "../components/SeoHead";
@@ -8,7 +8,7 @@ export default function ServiceRealidadVirtual() {
     <>
       <SeoHead title='Software y Aplicaciones Medellín - SmartLAB' />
       <Layout>
-        <RealidadVirtual />
+        <SoftwareAplicaciones />
       </Layout>
     </>
   );

@@ -20,7 +20,7 @@ const Hero = ({
     {
       name: "Realidad Mixta",
       number: "XR",
-      icon: "/assets/Icon/MIX2.svg",
+      icon: "/assets/Icon/XR.svg",
     },
   ],
 }) => {
@@ -49,7 +49,7 @@ const Hero = ({
             <div className="flex w-full">
               <motion.div className="h-full w-full" variants={scrollAnimation}>
                 <Image
-                  src="/assets/smartlab-img1.png"
+                  src="/assets/smartlab_img1.png"
                   alt="SmartLav illustration"
                   quality={100}
                   width={612}
