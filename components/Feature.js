@@ -37,9 +37,9 @@ const Feature = () => {
         </ScrollAnimationWrapper>
         <ScrollAnimationWrapper>
         <motion.div className="flex flex-col items-end justify-center ml-auto w-full lg:w-9/12" variants={scrollAnimation}>
-          <h3 className="text-3xl lg:text-4xl font-medium leading-relaxed text-black-600">
+          <h2 className="text-3xl lg:text-4xl font-medium leading-relaxed text-black-600">
             Experiencias Tecnologicas Para Diferentes Dispositivos
-          </h3>
+          </h2>
           <p className="my-2 text-black-500 text-justify">
           ¡Bienvenidos al Smart Lab! Somos un laboratorio de realidad virtual ubicado en Medellín, Colombia, que ofrece experiencias de inmersión en mundos virtuales para diversas aplicaciones. En Smart Lab, estamos comprometidos con la innovación y la tecnología de vanguardia. Utilizamos equipos y software de última generación para garantizar la mejor calidad en nuestras experiencias de realidad virtual. Si está buscando una experiencia única y emocionante de realidad virtual, no busque más allá de Smart Lab en Medellín. ¡Esperamos verlo pronto en nuestro laboratorio!
           </p>

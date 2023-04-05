@@ -11,25 +11,25 @@ const Testimoni = ({
   listTestimoni = [
     {
       name: "Stevenson Cardona",
-      image: "/assets/Stevenson.png",
+      image: "/assets/Steevenson.png",
       city: "CEO",
-      country: "PRINCIPAL",
+      country: "GERENCIA",
       rating: "4.5",
       testimoni:
-        " Comunicador social.",
+        "Comunicador social ",
     },
     {
       name: "Arley Sanchez",
       image: "/assets/people-1.png",
-      city: "CEO",
-      country: "COMERCIAL",
+      city: "Líder",
+      country: "PRODUCCIÓN",
       rating: "4.5",
       testimoni:
-        "Negociador internacional.",
+        "Negociador internacional",
     },
     {
       name: "Jorge Alvarez",
-      image: "/assets/people-3.png",
+      image: "/assets/yorch.png",
       city: "Líder",
       country: "DESARROLLO 3D",
       rating: "4.5",
@@ -39,20 +39,20 @@ const Testimoni = ({
     {
       name: "Oswaldo Ramires",
       image: "/assets/Oswall.png",
-      city: "CEO",
-      country: "PRODUCTOR",
+      city: "Lider",
+      country: "ADMINISTRACIÓN",
       rating: "4.5",
       testimoni:
-        " Escritor y redactor de producción",
+        "Apasionado por las ciencias sociales, con 11 años de experiencias en prosos sociales",
     },
     {
       name: "Andrés Ocampo",
       image: "/assets/Andres.png",
       city: "CEO",
-      country: "ADMINISTRADOR",
+      country: "GERENCIA",
       rating: "4.5",
       testimoni:
-        "Administrador de empresas, experto en gestión de personal",
+        "Administrador de empresas, asesor con más de 12 años de experiencia",
     },
     {
       name: "Jhon Sebastian G.",
@@ -70,7 +70,7 @@ const Testimoni = ({
       country: "MULTIMEDIA",
       rating: "4.5",
       testimoni:
-        "Tecnólogo en diseño gráfico, experto en modelado 3D",
+        "Tecnólogo en diseño gráfico, modelado 3D",
     },
     {
       name: "Steevens Rodriguez",
@@ -79,7 +79,7 @@ const Testimoni = ({
       country: "FULLSTACK DEV",
       rating: "4.5",
       testimoni:
-        "Apasionado por el software libre experto en escritura de código BlockChain e integración multilenguaje",
+        "Entusiasta del software libre, Con más de 5 años de experiencias en código BlockChain",
     },
   ],
 }) => {

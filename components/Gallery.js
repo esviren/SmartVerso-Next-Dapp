@@ -17,7 +17,7 @@ const Gallery = () => {
             id="Gallery"
         >
 
-            <h1 className="text-3xl font-medium">Proyectos desarrollados en 2D y 3D</h1>
+            <h1 className="text-3xl font-medium">Proyectos Desarrollados Por Equipo SmartLAB</h1>
             <div className="grid grid-cols-1 md:grid-cols-2 sm:grid-cols-1 lg:grid-cols-3">
                 {data.projects_3d.map((project) => (
                     <ScrollAnimationWrapper>
