@@ -32,7 +32,7 @@ const Smartverso = () => {
             </motion.p>
           </ScrollAnimationWrapper>
           <ScrollAnimationWrapper>
-            <motion.div className="py-12 w-full px-8 mt-16" variants={scrollAnimation}> 
+            <motion.div className="py-12 w-full px-8 mt-16" variants={scrollAnimation}>
               <Maps className="w-full h-auto" />
             </motion.div>
           </ScrollAnimationWrapper>
