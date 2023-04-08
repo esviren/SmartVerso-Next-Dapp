@@ -2,11 +2,13 @@ import React, { useMemo } from "react";
 import Image from "next/image";
 import Testimoni from "./Testimoni";
 import ButtonPrimary from "./misc/ButtonPrimary";
+import YoutubeVideo from './misc/YoutubeVideo';
 import ButtonOutline from "./misc/ButtonOutline.";
 import Maps from "../public/assets/HugeGlobal.svg";
 import { motion } from "framer-motion";
 import getScrollAnimation from "../utils/getScrollAnimation";
 import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
+import ReactPlayer from 'react-player';
 import Link from "next/link";
 
 const Smartverso = () => {
@@ -32,8 +34,8 @@ const Smartverso = () => {
             </motion.p>
           </ScrollAnimationWrapper>
           <ScrollAnimationWrapper>
-            <motion.div className="py-12 w-full px-8 mt-16" variants={scrollAnimation}>
-              <Maps className="w-full h-auto" />
+            <motion.div className="py-12 w-full px-4 mt-4" variants={scrollAnimation}>
+              <YoutubeVideo videoId="48J2mmE4J8w" />
             </motion.div>
           </ScrollAnimationWrapper>
           <ScrollAnimationWrapper>

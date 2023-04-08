@@ -62,6 +62,17 @@ li.check:before {
   @apply bg-teal-500 rounded-l-full rounded-r-full w-12;
 }
 
+.player-wrapper {
+  position: relative;
+  padding-top: 56.25%; /* Player ratio: 100 / (1280 / 720) */
+}
+
+.react-player {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 /* purgecss end ignore */
 @tailwind utilities;
 /* purgecss start ignore */
