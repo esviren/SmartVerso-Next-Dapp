@@ -1,6 +1,6 @@
-# [Tailwind VPN Landingpage](https://next-landing-vpn.vercel.app/) - Free Landingpage Template Apps
+# [SmartLAB LAboratory](https://smartlab.com.co/) - Porfolio
 
-Tailwind VPN Landingpage is an open source, apps landing page template for [Tailwind CSS](https://tailwindcss.com/) and[ NextJS](nextjs.org/) coded by [Faldi](twitter.com/f2aldi) and design from [Didi](https://twitter.com/didiikurniawann).
+This is an open source code propirty of Laboratorio SmartLAB, web apps service briefcase build whit [Tailwind CSS](https://tailwindcss.com/) and[ NextJS](nextjs.org/) coded and design by [Steevens](https://www.linkedin.com/in/steevens-rodriguez-876691174/).
 
 ![Landing Page](./landingpage.png)
 
@@ -8,8 +8,8 @@ Tailwind VPN Landingpage is an open source, apps landing page template for [Tail
 
 Choose one of the following options to get started:
 
-- [Download the latest release](https://github.com/naufaldi/next-landing-vpn/archive/main.zip)
-- Clone the repo: `git clone https://github.com/naufaldi/next-landing-vpn.git`
+- [Download the latest release](https://github.com/esviren/SmartVerso-Next-Dapp/archive/main.zip)
+- Clone the repo: `git clone https://github.com/esviren/SmartVerso-Next-Dapp.git`
 - Fork the repo
 
 ## About the Template
@@ -25,11 +25,11 @@ Choose one of the following options to get started:
 
 ## Bugs and Issues
 
-Have a bug or an issue with this template? [Open a new issue](https://github.com/naufaldi/next-landing-vpn/issues/new) here on GitHub.
+Have a bug or an issue with this template? [Open a new issue](https://github.com/esviren/SmartVerso-Next-Dapp/issues/new) here on GitHub.
 
 ## Creator
 
-[Tailwind VPN Landingpage](https://next-landing-vpn.vercel.app/) was coded and modified by and is maintained by **[me](https://github.com/naufaldi/)**, and dekstop design by [Didi Kurniawan](https://twitter.com/didiikurniawann)
+[SmartLAB Laboratory](https://smartlab.com.co/) was coded and modified by and is maintained by **[me](https://github.com/esviren/)**, and dekstop design by [Steevens Rodriguez](https://www.linkedin.com/in/steevens-rodriguez-876691174/)
 
 ## Copyright and License
 
