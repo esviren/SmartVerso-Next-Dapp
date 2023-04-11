@@ -120,38 +120,35 @@ const Header = () => {
       <nav className="fixed lg:hidden bottom-0 left-0 right-0 z-20 px-4 sm:px-8 shadow-t ">
         <div className="bg-white-500 sm:px-3">
           <ul className="flex w-full justify-between items-center text-black-500">
-            <LinkScroll
-              activeClass="active"
-              to="about"
-              spy={true}
-              smooth={true}
-              duration={1000}
-              onSetActive={() => {
-                setActiveLink("about");
-              }}
-              className={
-                "mx-1 sm:mx-2 px-3 sm:px-4 py-2 flex flex-col items-center text-xs border-t-2 transition-all " +
-                (activeLink === "about"
-                  ? "  border-teal-500 text-teal-500"
-                  : " border-transparent")
-              }
-            >
-              <svg
-                className="w-6 h-6"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
+            <Link href={"/"}>
+              <LinkScroll
+                activeClass="active"
+                to="about"
+                spy={true}
+                smooth={true}
+                duration={1000}
+                onSetActive={() => {
+                  setActiveLink("about");
+                }}
+                className={
+                  "mx-1 sm:mx-2 px-3 sm:px-4 py-2 flex flex-col items-center text-xs border-t-2 transition-all " +
+                  (activeLink === "about"
+                    ? "  border-teal-500 text-teal-500"
+                    : " border-transparent")
+                }
               >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-                />
-              </svg>
-              SmartLAB
-            </LinkScroll>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="-5 -3 72 72" aria-labelledby="title"
+                aria-describedby="desc" role="img">
+                  <title>House</title>
+                  <desc>SmartLAB ICONS.</desc>
+                  <path data-name="layer1"
+                  d="M54 26.267l7.555 7.3a.25.25 0 0 1-.174.43H54V62H40V44H24v18H10V34H2.618a.25.25 0 0 1-.174-.43L32 5l13 12.567V12h9z"
+                  fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10"
+                  stroke-width="2" stroke-linejoin="round"></path>
+                </svg>
+                SmartLAB
+              </LinkScroll>
+            </Link>
             <LinkScroll
               activeClass="active"
               to="feature"
@@ -168,86 +165,103 @@ const Header = () => {
                   : " border-transparent ")
               }
             >
-              <svg
-                className="w-6 h-6"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"
-                />
-              </svg>
-              Laboratorio
-            </LinkScroll>
-            <LinkScroll
-              activeClass="active"
-              to="pricing"
-              spy={true}
-              smooth={true}
-              duration={1000}
-              onSetActive={() => {
-                setActiveLink("pricing");
-              }}
-              className={
-                "mx-1 sm:mx-2 px-3 sm:px-4 py-2 flex flex-col items-center text-xs border-t-2 transition-all " +
-                (activeLink === "pricing"
-                  ? "  border-teal-500 text-teal-500"
-                  : " border-transparent ")
-              }
-            >
-              <svg
-                className="w-6 h-6"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-                />
+              <svg viewBox="-5 -3 72 72" xmlns="http://www.w3.org/2000/svg" aria-labelledby="title"
+              aria-describedby="desc" role="img" >
+                <title>Data App</title>
+                <desc>A line styled icon from Orion Icon Library.</desc>
+                <path d="M2 23v22l30.082 14L62 45V23L32 37.048 2 23zm30 14.048V59m25.332-38.178L62 23M37.459 11.548l9.148 4.269m-29.232.009l9.147-4.27M2 23l4.742-2.213"
+                stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke="currentColor"
+                fill="none" data-name="layer2"></path>
+                <ellipse stroke-width="2" stroke-linejoin="round" stroke-linecap="round"
+                stroke="currentColor" fill="none" ry="4" rx="7" cy="19" cx="13" data-name="layer1"></ellipse>
+                <ellipse stroke-width="2" stroke-linejoin="round" stroke-linecap="round"
+                stroke="currentColor" fill="none" ry="4" rx="7" cy="25" cx="32" data-name="layer1"></ellipse>
+                <ellipse stroke-width="2" stroke-linejoin="round" stroke-linecap="round"
+                stroke="currentColor" fill="none" ry="4" rx="7" cy="9" cx="32" data-name="layer1"></ellipse>
+                <ellipse stroke-width="2" stroke-linejoin="round" stroke-linecap="round"
+                stroke="currentColor" fill="none" ry="4" rx="7" cy="19" cx="51" data-name="layer1"></ellipse>
               </svg>
               Servicios
             </LinkScroll>
-            <LinkScroll
-              activeClass="active"
-              to="testimoni"
-              spy={true}
-              smooth={true}
-              duration={1000}
-              onSetActive={() => {
-                setActiveLink("testimoni");
-              }}
-              className={
-                "mx-1 sm:mx-2 px-3 sm:px-4 py-2 flex flex-col items-center text-xs border-t-2 transition-all " +
-                (activeLink === "testimoni"
-                  ? "  border-teal-500 text-teal-500"
-                  : " border-transparent ")
-              }
-            >
-              <svg
-                className="w-6 h-6"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
+            <Link href={"/proyectos"}>
+              <LinkScroll
+                activeClass="active"
+                to="Contacto"
+                spy={true}
+                smooth={true}
+                duration={1000}
+                onSetActive={() => {
+                  setActiveLink("Contacto");
+                }}
+                className={
+                  "mx-1 sm:mx-2 px-3 sm:px-4 py-2 flex flex-col items-center text-xs border-t-2 transition-all " +
+                  (activeLink === "Contacto"
+                    ? "  border-teal-500 text-teal-500"
+                    : " border-transparent")
+                }
               >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"
-                />
-              </svg>
-              Equipo
-            </LinkScroll>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="-10 -3 72 72" aria-labelledby="title"
+                aria-describedby="desc" role="img" >
+                  <title>Messaging App</title>
+                  <desc>A line styled icon from Orion Icon Library.</desc>
+                  <path data-name="layer2"
+                  d="M34 32a21.3 21.3 0 0 0 8 2v8l9.8-9.8c6-2.7 10.2-8 10.2-14.2 0-8.8-8.5-16-19-16S24 9.2 24 18c0 0 .1 1.3.2 2"
+                  fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                  stroke-width="2"></path>
+                  <circle data-name="layer2" cx="43" cy="18" r="1" fill="none" stroke="currentColor"
+                  stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></circle>
+                  <circle data-name="layer2" cx="35" cy="18" r="1" fill="none"
+                  stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></circle>
+                  <circle data-name="layer2" cx="51" cy="18" r="1" fill="none"
+                  stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></circle>
+                  <path data-name="layer1" d="M37.4 54.3c-8.2-1.4-7.4-3.5-7.4-4.9v-2.5a13.9 13.9 0 0 0 4-10.1v-6.7C34 22.8 28.7 20 24 20s-10 2.8-10 10.1v6.7a13.8 13.8 0 0 0 4.1 10.1v2.5c0 1.4.7 3.5-7.4 4.9S2 60 2 62h44c0-2-1.3-6.4-8.6-7.7z"
+                  fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                  stroke-width="2"></path>
+                </svg>
+                Contacto
+              </LinkScroll>
+            </Link>
+            <Link href={"/proyectos"}>
+              <LinkScroll
+                activeClass="active"
+                to="Gallery"
+                spy={true}
+                smooth={true}
+                duration={1000}
+                onSetActive={() => {
+                  setActiveLink("Gallery");
+                }}
+                className={
+                  "mx-1 sm:mx-2 px-3 sm:px-4 py-2 flex flex-col items-center text-xs border-t-2 transition-all " +
+                  (activeLink === "Gallery"
+                    ? "  border-teal-500 text-teal-500"
+                    : " border-transparent ")
+                }
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="-5 -3 72 72" aria-labelledby="title"
+                aria-describedby="desc" role="img">
+                  <title>Gamepad</title>
+                  <desc>A line styled icon from Orion Icon Library.</desc>
+                  <path data-name="layer1"
+                  fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                  stroke-width="2" d="M2 34h60v28H2z"></path>
+                  <circle data-name="layer2" cx="48" cy="42" r="2" fill="none" stroke="currentColor"
+                  stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></circle>
+                  <circle data-name="layer2" cx="42" cy="48" r="2" fill="none"
+                  stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></circle>
+                  <circle data-name="layer2" cx="54" cy="48" r="2" fill="none"
+                  stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></circle>
+                  <circle data-name="layer2" cx="48" cy="54" r="2" fill="none"
+                  stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></circle>
+                  <path data-name="layer2" fill="none" stroke="currentColor" stroke-linecap="round"
+                  stroke-linejoin="round" stroke-width="2" d="M14 42v12m-6-6h12"></path>
+                  <path data-name="layer1" d="M32 34v-7a9 9 0 0 1 9-9h5a8 8 0 0 0 8-8V2"
+                  fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                  stroke-width="2"></path>
+                </svg>
+                Proyectos
+              </LinkScroll>
+            </Link>
           </ul>
         </div>
       </nav>
