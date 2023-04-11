@@ -35,7 +35,7 @@ const Smartverso = () => {
           </ScrollAnimationWrapper>
           <ScrollAnimationWrapper>
             <motion.div className="py-12 w-full px-4 mt-4" variants={scrollAnimation}>
-              <YoutubeVideo videoId="U2W8h8FzcXI" />
+              <YoutubeVideo videoId="mueYocJkyb0" />
             </motion.div>
           </ScrollAnimationWrapper>
         </div>
