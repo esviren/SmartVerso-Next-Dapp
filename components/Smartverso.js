@@ -67,7 +67,11 @@ const Smartverso = () => {
                   </h5>
                   <p>Escríbenos Ahora</p>
                 </div>
-                <ButtonPrimary>WhatsApp</ButtonPrimary>
+                  <Link href="https://wa.link/iqfl4f">
+                    <a>
+                      <ButtonPrimary >WhatApp</ButtonPrimary>
+                    </a>
+                  </Link>
               </div>
               <div
                 className="absolute bg-black-600 opacity-5 w-11/12 roudned-lg h-60 sm:h-56 top-0 mt-8 mx-auto left-0 right-0"
