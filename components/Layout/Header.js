@@ -23,7 +23,11 @@ const Header = () => {
       >
         <nav className="max-w-screen-xl px-6 sm:px-8 lg:px-16 mx-auto grid grid-flow-col py-3 sm:py-4">
           <div className="col-start-1 col-end-2 flex items-center">
-            <LogoSmartLAB className="h-16 w-auto" />
+            <Link href={"/"}>
+              <a>
+                <LogoSmartLAB className="h-16 w-auto" />
+              </a>
+            </Link>
           </div>
           <ul className="hidden lg:flex col-start-4 col-end-8 text-black-500  items-center">
             <LinkScroll
@@ -62,24 +66,26 @@ const Header = () => {
             >
               Laboratorio
             </LinkScroll>
-            <LinkScroll
-              activeClass="active"
-              to="pricing"
-              spy={true}
-              smooth={true}
-              duration={1000}
-              onSetActive={() => {
-                setActiveLink("pricing");
-              }}
-              className={
-                "px-4 py-2 mx-2 cursor-pointer animation-hover inline-block relative" +
-                (activeLink === "pricing"
-                  ? " text-teal-500 animation-active "
-                  : " text-black-500 hover:text-teal-500 ")
-              }
-            >
-              Portafolio
-            </LinkScroll>
+            <Link href={"/proyectos"}>
+              <LinkScroll
+                activeClass="active"
+                to="proyectos"
+                spy={true}
+                smooth={true}
+                duration={1000}
+                onSetActive={() => {
+                  setActiveLink("proyectos");
+                }}
+                className={
+                  "px-4 py-2 mx-2 cursor-pointer animation-hover inline-block relative" +
+                  (activeLink === "proyectos"
+                    ? " text-teal-500 animation-active "
+                    : " text-black-500 hover:text-teal-500 ")
+                }
+              >
+                Portafolio
+              </LinkScroll>
+            </Link>
             <Link href="/proyectos">
               <LinkScroll
                 activeClass="active"
@@ -107,9 +113,9 @@ const Header = () => {
                   XR
               </a>
             </Link>
-            <Link href="/">
+            <Link href="/contacto">
               <a>
-                <ButtonOutline>Home</ButtonOutline>
+                <ButtonOutline>Contacto</ButtonOutline>
               </a>
             </Link>
           </div>
@@ -140,7 +146,7 @@ const Header = () => {
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="-5 -3 72 72" aria-labelledby="title"
                 aria-describedby="desc" role="img">
                   <title>House</title>
-                  <desc>SmartLAB ICONS.</desc>
+                  <desc>Home -SmartLAB</desc>
                   <path data-name="layer1"
                   d="M54 26.267l7.555 7.3a.25.25 0 0 1-.174.43H54V62H40V44H24v18H10V34H2.618a.25.25 0 0 1-.174-.43L32 5l13 12.567V12h9z"
                   fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10"
@@ -168,7 +174,7 @@ const Header = () => {
               <svg viewBox="-5 -3 72 72" xmlns="http://www.w3.org/2000/svg" aria-labelledby="title"
               aria-describedby="desc" role="img" >
                 <title>Data App</title>
-                <desc>A line styled icon from Orion Icon Library.</desc>
+                <desc>Services -SmartLAB</desc>
                 <path d="M2 23v22l30.082 14L62 45V23L32 37.048 2 23zm30 14.048V59m25.332-38.178L62 23M37.459 11.548l9.148 4.269m-29.232.009l9.147-4.27M2 23l4.742-2.213"
                 stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke="currentColor"
                 fill="none" data-name="layer2"></path>
@@ -186,39 +192,41 @@ const Header = () => {
             <Link href={"/proyectos"}>
               <LinkScroll
                 activeClass="active"
-                to="Contacto"
+                to="Gallery"
                 spy={true}
                 smooth={true}
                 duration={1000}
                 onSetActive={() => {
-                  setActiveLink("Contacto");
+                  setActiveLink("Gallery");
                 }}
                 className={
                   "mx-1 sm:mx-2 px-3 sm:px-4 py-2 flex flex-col items-center text-xs border-t-2 transition-all " +
-                  (activeLink === "Contacto"
+                  (activeLink === "Gallery"
                     ? "  border-teal-500 text-teal-500"
                     : " border-transparent")
                 }
               >
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="-10 -3 72 72" aria-labelledby="title"
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" aria-labelledby="title"
                 aria-describedby="desc" role="img" >
-                  <title>Messaging App</title>
-                  <desc>A line styled icon from Orion Icon Library.</desc>
+                  <title>Project</title>
+                  <desc>Projects -SmartLAB.</desc>
                   <path data-name="layer2"
-                  d="M34 32a21.3 21.3 0 0 0 8 2v8l9.8-9.8c6-2.7 10.2-8 10.2-14.2 0-8.8-8.5-16-19-16S24 9.2 24 18c0 0 .1 1.3.2 2"
-                  fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                  stroke-width="2"></path>
-                  <circle data-name="layer2" cx="43" cy="18" r="1" fill="none" stroke="currentColor"
-                  stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></circle>
-                  <circle data-name="layer2" cx="35" cy="18" r="1" fill="none"
-                  stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></circle>
-                  <circle data-name="layer2" cx="51" cy="18" r="1" fill="none"
-                  stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></circle>
-                  <path data-name="layer1" d="M37.4 54.3c-8.2-1.4-7.4-3.5-7.4-4.9v-2.5a13.9 13.9 0 0 0 4-10.1v-6.7C34 22.8 28.7 20 24 20s-10 2.8-10 10.1v6.7a13.8 13.8 0 0 0 4.1 10.1v2.5c0 1.4.7 3.5-7.4 4.9S2 60 2 62h44c0-2-1.3-6.4-8.6-7.7z"
-                  fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                  stroke-width="2"></path>
+                  fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="2" d="M62 35v20.4L45 61l-17-5.6V35l17-5.7L62 35z"
+                  stroke-linejoin="round" stroke-linecap="round"></path>
+                  <path data-name="layer2" fill="none" stroke="currentColor" stroke-miterlimit="10"
+                  stroke-width="2" d="M62 35l-17 5.6L28 35m17 5.6V61M28 33.2v15.6l-13 4.3-13-4.3V33.2l13-4.3 13 4.3z"
+                  stroke-linejoin="round" stroke-linecap="round"></path>
+                  <path data-name="layer2" fill="none" stroke="currentColor" stroke-miterlimit="10"
+                  stroke-width="2" d="M28 33.2l-13 4.3-13-4.3m13 4.3v15.6" stroke-linejoin="round"
+                  stroke-linecap="round"></path>
+                  <path data-name="layer1" fill="none" stroke="currentColor" stroke-miterlimit="10"
+                  stroke-width="2" d="M42 6.9v14.2L30 25l-12-3.9V6.9L30 3l12 3.9z" stroke-linejoin="round"
+                  stroke-linecap="round"></path>
+                  <path data-name="layer1" fill="none" stroke="currentColor" stroke-miterlimit="10"
+                  stroke-width="2" d="M42 6.9l-12 4-12-4m12 4V25" stroke-linejoin="round"
+                  stroke-linecap="round"></path>
                 </svg>
-                Contacto
+                Proyectos
               </LinkScroll>
             </Link>
             <Link href={"/proyectos"}>
@@ -241,7 +249,7 @@ const Header = () => {
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="-5 -3 72 72" aria-labelledby="title"
                 aria-describedby="desc" role="img">
                   <title>Gamepad</title>
-                  <desc>A line styled icon from Orion Icon Library.</desc>
+                  <desc>Video Games -SmartLAB</desc>
                   <path data-name="layer1"
                   fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
                   stroke-width="2" d="M2 34h60v28H2z"></path>
@@ -259,7 +267,7 @@ const Header = () => {
                   fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
                   stroke-width="2"></path>
                 </svg>
-                Proyectos
+                VideoJuegos
               </LinkScroll>
             </Link>
           </ul>

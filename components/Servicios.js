@@ -117,13 +117,13 @@ const Servicios = () => {
                   Modelado 3D
                 </li>
                 <li className="relative check custom-list my-2">
-                  Experiencias Eduativas
+                  Experiencias Educativas
                 </li>
                 <li className="relative check custom-list my-2">
                   Capacitación Empresarial
                 </li>
                 <li className="relative check custom-list my-2">
-                  Capacitacion de Cliente
+                  Capacitación de Cliente
                 </li>
                 <li className="relative check custom-list my-2">
                   {"Cripto Monedas y Activos Digitales"}
