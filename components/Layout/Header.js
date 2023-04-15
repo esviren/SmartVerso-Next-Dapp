@@ -48,24 +48,26 @@ const Header = () => {
             >
               Inicio
             </LinkScroll>
-            <LinkScroll
-              activeClass="active"
-              to="feature"
-              spy={true}
-              smooth={true}
-              duration={1000}
-              onSetActive={() => {
-                setActiveLink("feature");
-              }}
-              className={
-                "px-4 py-2 mx-2 cursor-pointer animation-hover inline-block relative" +
-                (activeLink === "feature"
-                  ? " text-teal-500 animation-active "
-                  : " text-black-500 hover:text-teal-500 ")
-              }
-            >
-              Laboratorio
-            </LinkScroll>
+            <Link href={"/servicios"}>
+              <LinkScroll
+                activeClass="active"
+                to="feature"
+                spy={true}
+                smooth={true}
+                duration={1000}
+                onSetActive={() => {
+                  setActiveLink("feature");
+                }}
+                className={
+                  "px-4 py-2 mx-2 cursor-pointer animation-hover inline-block relative" +
+                  (activeLink === "feature"
+                    ? " text-teal-500 animation-active "
+                    : " text-black-500 hover:text-teal-500 ")
+                }
+              >
+                Servicios
+              </LinkScroll>
+            </Link>
             <Link href={"/proyectos"}>
               <LinkScroll
                 activeClass="active"
@@ -155,40 +157,42 @@ const Header = () => {
                 SmartLAB
               </LinkScroll>
             </Link>
-            <LinkScroll
-              activeClass="active"
-              to="feature"
-              spy={true}
-              smooth={true}
-              duration={1000}
-              onSetActive={() => {
-                setActiveLink("feature");
-              }}
-              className={
-                "mx-1 sm:mx-2 px-3 sm:px-4 py-2 flex flex-col items-center text-xs border-t-2 transition-all " +
-                (activeLink === "feature"
-                  ? "  border-teal-500 text-teal-500"
-                  : " border-transparent ")
-              }
-            >
-              <svg viewBox="-5 -3 72 72" xmlns="http://www.w3.org/2000/svg" aria-labelledby="title"
-              aria-describedby="desc" role="img" >
-                <title>Data App</title>
-                <desc>Services -SmartLAB</desc>
-                <path d="M2 23v22l30.082 14L62 45V23L32 37.048 2 23zm30 14.048V59m25.332-38.178L62 23M37.459 11.548l9.148 4.269m-29.232.009l9.147-4.27M2 23l4.742-2.213"
-                stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke="currentColor"
-                fill="none" data-name="layer2"></path>
-                <ellipse stroke-width="2" stroke-linejoin="round" stroke-linecap="round"
-                stroke="currentColor" fill="none" ry="4" rx="7" cy="19" cx="13" data-name="layer1"></ellipse>
-                <ellipse stroke-width="2" stroke-linejoin="round" stroke-linecap="round"
-                stroke="currentColor" fill="none" ry="4" rx="7" cy="25" cx="32" data-name="layer1"></ellipse>
-                <ellipse stroke-width="2" stroke-linejoin="round" stroke-linecap="round"
-                stroke="currentColor" fill="none" ry="4" rx="7" cy="9" cx="32" data-name="layer1"></ellipse>
-                <ellipse stroke-width="2" stroke-linejoin="round" stroke-linecap="round"
-                stroke="currentColor" fill="none" ry="4" rx="7" cy="19" cx="51" data-name="layer1"></ellipse>
-              </svg>
-              Servicios
-            </LinkScroll>
+            <Link href={"/servicios"}>
+              <LinkScroll
+                activeClass="active"
+                to="feature"
+                spy={true}
+                smooth={true}
+                duration={1000}
+                onSetActive={() => {
+                  setActiveLink("feature");
+                }}
+                className={
+                  "mx-1 sm:mx-2 px-3 sm:px-4 py-2 flex flex-col items-center text-xs border-t-2 transition-all " +
+                  (activeLink === "feature"
+                    ? "  border-teal-500 text-teal-500"
+                    : " border-transparent ")
+                }
+              >
+                <svg viewBox="-5 -3 72 72" xmlns="http://www.w3.org/2000/svg" aria-labelledby="title"
+                aria-describedby="desc" role="img" >
+                  <title>Data App</title>
+                  <desc>Services -SmartLAB</desc>
+                  <path d="M2 23v22l30.082 14L62 45V23L32 37.048 2 23zm30 14.048V59m25.332-38.178L62 23M37.459 11.548l9.148 4.269m-29.232.009l9.147-4.27M2 23l4.742-2.213"
+                  stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke="currentColor"
+                  fill="none" data-name="layer2"></path>
+                  <ellipse stroke-width="2" stroke-linejoin="round" stroke-linecap="round"
+                  stroke="currentColor" fill="none" ry="4" rx="7" cy="19" cx="13" data-name="layer1"></ellipse>
+                  <ellipse stroke-width="2" stroke-linejoin="round" stroke-linecap="round"
+                  stroke="currentColor" fill="none" ry="4" rx="7" cy="25" cx="32" data-name="layer1"></ellipse>
+                  <ellipse stroke-width="2" stroke-linejoin="round" stroke-linecap="round"
+                  stroke="currentColor" fill="none" ry="4" rx="7" cy="9" cx="32" data-name="layer1"></ellipse>
+                  <ellipse stroke-width="2" stroke-linejoin="round" stroke-linecap="round"
+                  stroke="currentColor" fill="none" ry="4" rx="7" cy="19" cx="51" data-name="layer1"></ellipse>
+                </svg>
+                Servicios
+              </LinkScroll>
+            </Link>
             <Link href={"/proyectos"}>
               <LinkScroll
                 activeClass="active"

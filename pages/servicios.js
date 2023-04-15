@@ -1,14 +1,12 @@
-import RealidadVirtual from "../components/RealidadVirtual";
 import Services from "../components/Services";
 import Layout from "../components/Layout/Layout";
 import SeoHead from "../components/SeoHead";
 
-export default function ServiceRealidadVirtual() {
+export default function PageContacto() {
   return (
     <>
-      <SeoHead title='Realidad Virtual Medellín - SmartLAB' />
+      <SeoHead title='Contacto VR Medellín - SmartLAB' />
       <Layout>
-        <RealidadVirtual />
         <Services />
       </Layout>
     </>
