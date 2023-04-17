@@ -30,24 +30,26 @@ const Header = () => {
             </Link>
           </div>
           <ul className="hidden lg:flex col-start-4 col-end-8 text-black-500  items-center">
-            <LinkScroll
-              activeClass="active"
-              to="about"
-              spy={true}
-              smooth={true}
-              duration={1000}
-              onSetActive={() => {
-                setActiveLink("about");
-              }}
-              className={
-                "px-4 py-2 mx-2 cursor-pointer animation-hover inline-block relative" +
-                (activeLink === "Inicio"
-                  ? " text-teal-500 animation-active "
-                  : " text-black-500 hover:text-teal-500 a")
-              }
-            >
-              Inicio
-            </LinkScroll>
+            <Link href={"/"}>
+              <LinkScroll
+                activeClass="active"
+                to="about"
+                spy={true}
+                smooth={true}
+                duration={1000}
+                onSetActive={() => {
+                  setActiveLink("about");
+                }}
+                className={
+                  "px-4 py-2 mx-2 cursor-pointer animation-hover inline-block relative" +
+                  (activeLink === "Inicio"
+                    ? " text-teal-500 animation-active "
+                    : " text-black-500 hover:text-teal-500 a")
+                }
+              >
+                Inicio
+              </LinkScroll>
+            </Link>
             <Link href={"/servicios"}>
               <LinkScroll
                 activeClass="active"
@@ -88,7 +90,7 @@ const Header = () => {
                 Portafolio
               </LinkScroll>
             </Link>
-            <Link href="/proyectos">
+            <Link href="/smart-racing">
               <LinkScroll
                 activeClass="active"
                 to={"/proyectos"}
@@ -105,7 +107,7 @@ const Header = () => {
                     : " text-black-500 hover:text-teal-500 ")
                 }
               >
-                Proyectos
+                Vídeo Juegos
               </LinkScroll>
             </Link>
           </ul>
@@ -160,16 +162,16 @@ const Header = () => {
             <Link href={"/servicios"}>
               <LinkScroll
                 activeClass="active"
-                to="feature"
+                to="Services"
                 spy={true}
                 smooth={true}
                 duration={1000}
                 onSetActive={() => {
-                  setActiveLink("feature");
+                  setActiveLink("Services");
                 }}
                 className={
                   "mx-1 sm:mx-2 px-3 sm:px-4 py-2 flex flex-col items-center text-xs border-t-2 transition-all " +
-                  (activeLink === "feature"
+                  (activeLink === "Services"
                     ? "  border-teal-500 text-teal-500"
                     : " border-transparent ")
                 }
@@ -233,19 +235,19 @@ const Header = () => {
                 Proyectos
               </LinkScroll>
             </Link>
-            <Link href={"/proyectos"}>
+            <Link href={"/smart-racing"}>
               <LinkScroll
                 activeClass="active"
-                to="Gallery"
+                to="RealRacing"
                 spy={true}
                 smooth={true}
                 duration={1000}
                 onSetActive={() => {
-                  setActiveLink("Gallery");
+                  setActiveLink("RealRacing");
                 }}
                 className={
                   "mx-1 sm:mx-2 px-3 sm:px-4 py-2 flex flex-col items-center text-xs border-t-2 transition-all " +
-                  (activeLink === "Gallery"
+                  (activeLink === "RealRacing"
                     ? "  border-teal-500 text-teal-500"
                     : " border-transparent ")
                 }

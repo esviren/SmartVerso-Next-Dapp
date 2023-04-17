@@ -4,6 +4,7 @@ import ButtonPrimary from "./misc/ButtonPrimary";
 import {motion} from "framer-motion";
 import getScrollAnimation from "../utils/getScrollAnimation";
 import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
+import { Link } from "react-scroll";
 
 const Hero = ({
   listUser = [
@@ -44,9 +45,13 @@ const Hero = ({
                  como lo son la realidad virtual, la realidad aumentada, la
                 realidad mixta y las blockchain.
               </p>
-              <ButtonPrimary>Servicios</ButtonPrimary>
+              <Link href="/servicios">
+                <a>
+                  <ButtonPrimary>Servicios</ButtonPrimary>
+                </a>
+              </Link>
             </div>
-            <div className="flex w-full sm:mb-4 sm:pb-4">
+            <div className="flex w-full ">
               <motion.div className="h-full w-full sm:mb-4 sm:pb-4" variants={scrollAnimation}>
                 <Image
                   src="/assets/smartlab_img1.png"

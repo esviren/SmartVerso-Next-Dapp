@@ -11,6 +11,7 @@ function YoutubeVideo({ videoId }) {
         width="100%"
         height="100%"
         playing="true"
+        loop="true"
         muted="true"
         controls={false}
       />
