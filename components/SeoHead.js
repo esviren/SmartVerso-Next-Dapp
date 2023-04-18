@@ -9,12 +9,12 @@ const defaultMeta = {
   description:
     'SmartLAB Best Laboratory For VR technologies',
   // change base url of your web (without '/' at the end)
-  url: 'https://next-landing-vpn.vercel.app',
+  url: 'https://smartlab.com.co',
   type: 'website',
-  robots: 'follow, index',
+  robots: 'follow, index, realidad virtual, Realidad Aumentada',
   // change with url of your image (recommended dimension = 1.91:1)
   // used in twitter, facebook, etc. card when link copied in tweet/status 
-  image: 'https://paginadecaptura.co/wp-content/uploads/2022/06/cropped-Smart1.jpg',
+  image: 'https://github.com/esviren/SmartVerso-Next-Dapp/raw/main/landingpage.png',
   author: 'Steevens Rodriguez Garcia'
 };
 
