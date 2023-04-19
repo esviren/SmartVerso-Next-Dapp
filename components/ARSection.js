@@ -1,7 +1,8 @@
 import Image from "next/image";
 import React, { useMemo } from "react";
 import { motion } from "framer-motion";
-import ARModelViewer from './misc/ARVisor';
+import dynamic from 'next/dynamic'
+
 import getScrollAnimation from "../utils/getScrollAnimation";
 import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
 
@@ -11,7 +12,12 @@ const ARfeatures = [
   "Realidad Mixta",
   "Manuales de prducto AR",
   "Reconocimento de Producto APP AR"
-]
+];
+
+const ARModelViewer = dynamic(
+  () => import('./misc/ARVisor'),
+  { ssr: false }
+);
 
 const ARSection = () => {
   const scrollAnimation = useMemo(() => getScrollAnimation(), []);
