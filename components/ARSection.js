@@ -31,7 +31,9 @@ const ARSection = () => {
         <ScrollAnimationWrapper className="flex w-full justify-end">
           <motion.div className="h-full w-full p-4" variants={scrollAnimation}>
             <ARModelViewer
-              src="/assets/3D/coltejer.glb"
+              src="/assets/3D/old_sofa.glb"
+              ios_src="/assets/3D/Old_Sofa.usdz"
+              alt="Sofa Comercio Experiencial AR"
             />
           </motion.div>
         </ScrollAnimationWrapper>
