@@ -20,7 +20,7 @@ const Testimoni = ({
     },
     {
       name: "Arley Sanchez",
-      image: "/assets/people-1.png",
+      image: "/assets/vete.png",
       city: "Líder",
       country: "PRODUCCIÓN",
       rating: "4.5",

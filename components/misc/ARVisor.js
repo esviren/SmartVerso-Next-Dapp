@@ -1,17 +1,18 @@
 import '@google/model-viewer';
 
-const ARModelViewer = ({ src }) => {
+const ARModelViewer = ({ src, ios_src, alt }) => {
     return (
     <model-viewer
       src={src}
+      ios-src={ios_src}
+      alt={alt}
       ar
-      ar-modes="webxr scene-viewer quick-look"
+      ar-modes="webxr scene-viewer quick-look"// scene-viewer quick-look
       ar-scale="auto"
+      touch-action="pan-y"
       camera-controls
+      xr-environment
     >
-        <a slot="ar-button">
-      👋 Ver En Realidad Aumentada
-  </a>
     </model-viewer>
   );
 };
