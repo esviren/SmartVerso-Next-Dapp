@@ -3,6 +3,7 @@ import React, { useMemo } from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import ButtonPrimary from "./misc/ButtonPrimary";
+import ButtonCTA from "./misc/ButtonCTA";
 import YoutubeVideo from './misc/YoutubeVideo';
 import getScrollAnimation from "../utils/getScrollAnimation";
 import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
@@ -24,12 +25,10 @@ const SmartRacing = () => {
                 <ScrollAnimationWrapper>
                     <motion.div className="flex flex-col items-end justify-center ml-auto w-full px-4" variants={scrollAnimation}>
                         <h2 className="text-3xl lg:text-4xl font-medium leading-relaxed text-black-600">
-                            Pauta Con Nosostros
+                            Se Parte Del Juego 
                         </h2>
                         <p className="my-2 text-black-500 text-justify">
-                            Conoce una nueva forma de promocionar tu Empresa o Marca; siendo parte de uno de los mercados
-                            emergentes más grandes y populares del momento.<br />
-                            Se parte de del videojuego SmartRACING siendo Sponsor en diferentes Sitios del videoJuego.
+                        Introduce tu Marca o Empresa en el nuevo mundo digital. Se Sponsor en las diferentes áreas de nuestro videojuego y llega a nuevos mercados.
                         </p>
                         <Link href="/pauta-smart-racing">
                             <a>
@@ -51,7 +50,7 @@ const SmartRacing = () => {
                     </motion.h3>
                     <motion.p className="leading-normal  mx-auto my-2 w-10/12 sm:w-7/12 lg:w-6/12" variants={scrollAnimation}>
                         Preparate para Ganar SmartVerso Coins Mientras Te diviertes.
-                        <br />Muy Pronto!
+                        <br />¡Muy Pronto!
                     </motion.p>
                 </ScrollAnimationWrapper>
                 <ScrollAnimationWrapper>
@@ -66,13 +65,13 @@ const SmartRacing = () => {
                         <div className="absolute rounded-xl  py-8 sm:py-14 px-6 sm:px-12 lg:px-16 w-full flex flex-col sm:flex-row justify-between items-center z-10 bg-white-500">
                             <div className="flex flex-col text-left w-10/12 sm:w-7/12 lg:w-5/12 mb-6 sm:mb-0">
                                 <h5 className="text-black-600 text-xl sm:text-2xl lg:text-3xl leading-relaxed font-medium">
-                                    Permanece con la información y noticias más relevante de SmartRACING!
+                                    Se  El Primero En Jugar SmartRacing
                                 </h5>
                                 <p>¡Suscríbete Ahora!</p>
                             </div>
-                            <Link href="/pauta-smart-racing">
+                            <Link href="/pauta-smart-racing" >
                                 <a>
-                                    <ButtonPrimary >Suscribete</ButtonPrimary>
+                                <ButtonCTA >¡Registrate Ya!</ButtonCTA>
                                 </a>
                             </Link>
                         </div>

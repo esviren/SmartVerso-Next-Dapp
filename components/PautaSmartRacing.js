@@ -23,22 +23,18 @@ const PautaSmartRacing = () => {
                         <div className="py-8 text-center">
                         <Link href="https://wa.link/iqfl4f" >
                             <a>
-                            <ButtonPrimary >WhatApp</ButtonPrimary>
+                            <ButtonPrimary >WhatsApp</ButtonPrimary>
                             </a>
                         </Link>
                         </div>
-                        <p className="my-2 text-black-500 text-justify">
-                            Se dueño de una Valla Publicitaria en un video juego triple AAA para andrid e IOS.<br />
-                            Esta pauta sera de forma vitalicia durante todas las diferentes etapas del juego.<br /> 
-                            Participa Como partocinador en direente segmentos del videojuego
-                        </p>
+
                     </motion.div>
 
                 </ScrollAnimationWrapper>
                 <ScrollAnimationWrapper>
                     <motion.div className="flex flex-col items-center justify-center ml-auto w-full px-4" variants={scrollAnimation}>
                         <h2 className="text-3xl lg:text-4xl font-medium leading-relaxed text-black-600">
-                            Pauta Con Nosostros
+                            Registrate
                         </h2>
                         
                         <Formulario />
@@ -53,8 +49,8 @@ const PautaSmartRacing = () => {
                         Llega a nuevos publicos y posicionate en nuevos mercados{" "}
                     </motion.h3>
                     <motion.p className="leading-normal  mx-auto my-2 w-10/12 sm:w-7/12 lg:w-6/12" variants={scrollAnimation}>
-                        Llega a nuevos publicos y posicionate en nuevos mercadosMediante espacios de inmercion y recordacion, 
-                        Fortalese tu precencia dijital y pocisionamento de marca en SmartRACING<br />Muy Pronto!
+                        Llega a nuevos publicos y posicionate en nuevos mercados mediante espacios de inmerción y recordación, 
+                        Fortalece tu precencia digitál y posicionamento de marca con una valla publicitaria en SmartRACING
                     </motion.p>
                 </ScrollAnimationWrapper>
                 <ScrollAnimationWrapper>

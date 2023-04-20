@@ -1,4 +1,7 @@
 import React from 'react';
+import ButtonCTA from "./misc/ButtonCTA";
+import Link from "next/link";
+
 
 const HeroSmartRacing = () => {
   return (
@@ -10,7 +13,12 @@ const HeroSmartRacing = () => {
         
         
         <img className="object-cover w-full h-full" src="/assets/smart-racing-logo.png" alt="Smart Racing" />
-        <h1 className="text-4xl font-bold text-gray-400">Partisipa de un ecosistema tecnológico con SmartRACING</h1>
+        <Link href="/pauta-smart-racing" >
+          <a>
+          <ButtonCTA >¡Registrate Ya!</ButtonCTA>
+          </a>
+        </Link>
+        {/* <h1 className="text-4xl font-bold text-gray-400">Partisipa de un ecosistema tecnológico con SmartRACING</h1> */}
       </div>
     </div>
   );
