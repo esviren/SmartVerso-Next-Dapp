@@ -1,4 +1,4 @@
-import Formulario from "../components/PautaSmartRacing";
+import Formulario from "../components/RegistroSmartRacing.js";
 import Layout from "../components/Layout/Layout";
 import SeoHead from "../components/SeoHead";
 
