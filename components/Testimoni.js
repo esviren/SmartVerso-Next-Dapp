@@ -25,7 +25,7 @@ const Testimoni = ({
       country: "PRODUCCIÓN",
       rating: "4.5",
       testimoni:
-        "Negociador internacional",
+        "Coporductor de Marketing Digital",
     },
     {
       name: "Jorge Alvarez",
@@ -34,7 +34,7 @@ const Testimoni = ({
       country: "DESARROLLO 3D",
       rating: "4.5",
       testimoni:
-        "Tecnólogo en animación 3D y experto en producción 2D y 3D ademas de integración multilenguaje",
+        "Tecnólogo en animación 3D y experto en producción 2D y 3D ",
     },
     {
       name: "Oswaldo Ramires",

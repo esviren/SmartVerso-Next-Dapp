@@ -8,11 +8,11 @@ import YoutubeVideo from './misc/YoutubeVideo';
 import getScrollAnimation from "../utils/getScrollAnimation";
 import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
 
-const PautaSmartRacing = () => {
+const RegistroSmartRacing = () => {
     const scrollAnimation = useMemo(() => getScrollAnimation(), []);
 
     return (
-        <div
+        <div    
             className="max-w-screen-xl mb-6 sm:mt-14 sm:mb-14 px-6 sm:px-8 lg:px-16 mx-auto"
             id="RealRacing"
         >
@@ -34,7 +34,7 @@ const PautaSmartRacing = () => {
                 <ScrollAnimationWrapper>
                     <motion.div className="flex flex-col items-center justify-center ml-auto w-full px-4" variants={scrollAnimation}>
                         <h2 className="text-3xl lg:text-4xl font-medium leading-relaxed text-black-600">
-                            Pauta Con Nosotros
+                            Registrate
                         </h2>
                         
                         <Formulario />
@@ -63,4 +63,4 @@ const PautaSmartRacing = () => {
     );
 };
 
-export default PautaSmartRacing;
+export default RegistroSmartRacing;
