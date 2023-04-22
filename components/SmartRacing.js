@@ -69,7 +69,7 @@ const SmartRacing = () => {
                                 </h5>
                                 <p>¡Suscríbete Ahora!</p>
                             </div>
-                            <Link href="/pauta-smart-racing" >
+                            <Link href="/registro-smart-racing" >
                                 <a>
                                 <ButtonCTA >¡Registrate Ya!</ButtonCTA>
                                 </a>

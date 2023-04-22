@@ -34,9 +34,8 @@ const PautaSmartRacing = () => {
                 <ScrollAnimationWrapper>
                     <motion.div className="flex flex-col items-center justify-center ml-auto w-full px-4" variants={scrollAnimation}>
                         <h2 className="text-3xl lg:text-4xl font-medium leading-relaxed text-black-600">
-                            Pauta Con Nosotros
+                            SE UN SPONSOR
                         </h2>
-                        
                         <Formulario />
                     </motion.div>
                 </ScrollAnimationWrapper>

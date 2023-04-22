@@ -13,7 +13,7 @@ const HeroSmartRacing = () => {
         
         
         <img className="object-cover w-full h-full sm:px-50" src="/assets/smart-racing-logo.png" alt="Smart Racing" />
-        <Link href="/pauta-smart-racing" >
+        <Link href="/registro-smart-racing" >
           <a>
           <ButtonCTA className="">¡Registrate Ya!</ButtonCTA>
           </a>
