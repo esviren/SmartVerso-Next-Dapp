@@ -15,7 +15,7 @@ const ARfeatures = [
 ];
 
 const ARModelViewer = dynamic(
-  () => import('./misc/ARSection'),
+  () => import('./misc/ARViewer'),
   { ssr: false }
 );
 
