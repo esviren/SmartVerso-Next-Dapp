@@ -19,7 +19,7 @@ const SmartRacing = () => {
             <div className="grid grid-flow-row sm:grid-flow-col grid-cols-1 sm:grid-cols-2 gap-4 y-8 my-8">
                 <ScrollAnimationWrapper className="flex w-full justify-end">
                     <motion.div className="h-full w-full px-4" variants={scrollAnimation}>
-                        <YoutubeVideo videoId="55X2mC23zcU" />
+                        <YoutubeVideo videoId="6vcAv31u2XU" />
                     </motion.div>
                 </ScrollAnimationWrapper>
                 <ScrollAnimationWrapper>
@@ -55,7 +55,7 @@ const SmartRacing = () => {
                 </ScrollAnimationWrapper>
                 <ScrollAnimationWrapper>
                     <motion.div className="py-12 w-full px-4 mt-4" variants={scrollAnimation}>
-                        <YoutubeVideo videoId="mueYocJkyb0" />
+                        <YoutubeVideo videoId="Mdi5BDRCLYc" />
                     </motion.div>
                 </ScrollAnimationWrapper>
             </div>
