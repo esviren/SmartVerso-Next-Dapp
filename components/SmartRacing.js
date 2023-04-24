@@ -5,6 +5,7 @@ import Link from "next/link";
 import ButtonPrimary from "./misc/ButtonPrimary";
 import ButtonCTA from "./misc/ButtonCTA";
 import YoutubeVideo from './misc/YoutubeVideo';
+import ARPauta from "../components/ARPauta";
 import getScrollAnimation from "../utils/getScrollAnimation";
 import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
 
@@ -19,7 +20,7 @@ const SmartRacing = () => {
             <div className="grid grid-flow-row sm:grid-flow-col grid-cols-1 sm:grid-cols-2 gap-4 y-8 my-8">
                 <ScrollAnimationWrapper className="flex w-full justify-end">
                     <motion.div className="h-full w-full px-4" variants={scrollAnimation}>
-                        <YoutubeVideo videoId="6vcAv31u2XU" />
+                        <YoutubeVideo videoId="6vcAv31u2XU"/>
                     </motion.div>
                 </ScrollAnimationWrapper>
                 <ScrollAnimationWrapper>
@@ -43,11 +44,11 @@ const SmartRacing = () => {
             </div>
             <div className="flex flex-col w-full mt-16 text-center">
                 <ScrollAnimationWrapper>
-                    <motion.h3
+                    <motion.h2
                         variants={scrollAnimation}
                         className="text-2xl sm:text-3xl lg:text-4xl font-medium text-black-600 leading-relaxed w-9/12 sm:w-6/12 lg:w-4/12 mx-auto">
                         Carreras Con Ganacias Reales{" "}
-                    </motion.h3>
+                    </motion.h2>
                     <motion.p className="leading-normal  mx-auto my-2 w-10/12 sm:w-7/12 lg:w-6/12" variants={scrollAnimation}>
                         Preparate para Ganar SmartVerso Coins Mientras Te diviertes.
                         <br />¡Muy Pronto!
@@ -58,6 +59,16 @@ const SmartRacing = () => {
                         <YoutubeVideo videoId="Mdi5BDRCLYc" />
                     </motion.div>
                 </ScrollAnimationWrapper>
+            </div>
+            <div className="">
+                <ScrollAnimationWrapper>
+                    <motion.div
+                        variants={scrollAnimation}
+                    >
+                        <ARPauta/>
+                    </motion.div>
+                </ScrollAnimationWrapper>
+
             </div>
             <div className="flex flex-col w-full mb-32">
                 <ScrollAnimationWrapper className="relative w-full mt-16">
