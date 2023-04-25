@@ -11,6 +11,7 @@ const ARModelViewer = ({ src, ios_src, alt }) => {
       ar-scale="auto"
       ar-placement="floor"
       touch-action="pan-y"
+      shadow-intensity="1"
       camera-controls
       xr-environment
     >

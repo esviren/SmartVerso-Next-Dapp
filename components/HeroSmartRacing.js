@@ -11,13 +11,16 @@ const HeroSmartRacing = () => {
       </div>
       <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center">
         
-        
-        <img className="object-cover w-full h-full sm:px-50" src="/assets/smart-racing-logo.png" alt="Smart Racing" />
-        <Link href="/registro-smart-racing" >
-          <a>
-          <ButtonCTA className="">¡Registrate Ya!</ButtonCTA>
-          </a>
-        </Link>
+        <div className="sm:mb-16 md:mb-1 lg:mb-1">
+          <img className="object-cover w-full h-full sm:px-50" src="/assets/smart-racing-logo.png" alt="Smart Racing" />
+        </div>
+        <div className="sm:mt-16">
+          <Link href="/registro-smart-racing" className="">
+            <a>
+            <ButtonCTA className="">¡Registrate Ya!</ButtonCTA>
+            </a>
+          </Link>
+        </div>
         {/* <h1 className="text-4xl font-bold text-gray-400">Partisipa de un ecosistema tecnológico con SmartRACING</h1> */}
       </div>
     </div>
