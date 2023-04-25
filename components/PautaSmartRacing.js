@@ -19,7 +19,7 @@ const PautaSmartRacing = () => {
             <div className="grid grid-flow-row sm:grid-flow-col grid-cols-1 sm:grid-cols-2 gap-4 y-8 mb-8  mt-36">
                 <ScrollAnimationWrapper className="flex w-full justify-end">
                     <motion.div className="h-full w-full px-4" variants={scrollAnimation}>
-                        <YoutubeVideo videoId="55X2mC23zcU" />
+                        <YoutubeVideo videoId="I1MALrSg0AU" />
                         <div className="py-8 text-center">
                         <Link href="https://wa.link/iqfl4f" >
                             <a>
@@ -47,13 +47,13 @@ const PautaSmartRacing = () => {
                         Llega a nuevos publicos y posicionate en nuevos mercados{" "}
                     </motion.h3>
                     <motion.p className="leading-normal  mx-auto my-2 w-10/12 sm:w-7/12 lg:w-6/12" variants={scrollAnimation}>
-                        Llega a nuevos públicos y posiciónate en nuevos mercados mediante espacios de inmersión y recordación, 
+                        Llega a nuevos públicos y posiciónate en nuevos mercados mediante espacios de inmersión y recordación. 
                         Fortalece tu presencia digital y posicionamiento de marca con una valla publicitaria en SMartRACING
                     </motion.p>
                 </ScrollAnimationWrapper>
                 <ScrollAnimationWrapper>
                     <motion.div className="py-12 w-full px-4 mt-4" variants={scrollAnimation}>
-                        <YoutubeVideo videoId="mueYocJkyb0" />
+                        <YoutubeVideo videoId="I1MALrSg0AU" />
                     </motion.div>
                 </ScrollAnimationWrapper>
             </div>
