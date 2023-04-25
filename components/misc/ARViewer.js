@@ -7,7 +7,7 @@ const ARModelViewer = ({ src, ios_src, alt }) => {
       ios-src={ios_src}
       alt={alt}
       ar
-      ar-modes="webxr quick-look"
+      ar-modes="webxr scene-viewer quick-look"
       ar-scale="auto"
       ar-placement="floor"
       touch-action="pan-y"
