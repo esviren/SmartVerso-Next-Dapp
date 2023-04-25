@@ -8,7 +8,7 @@ const ARModelViewer = ({ src, ios_src, alt }) => {
       alt={alt}
       ar
       ar-modes="scene-viewer quick-look"
-      ar-scale="fixed"
+      ar-scale="auto"
       ar-placement="floor"
       touch-action="pan-y"
       camera-controls

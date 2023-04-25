@@ -27,15 +27,14 @@ const PautaSmartRacing = () => {
                             </a>
                         </Link>
                         </div>
-
                     </motion.div>
-
                 </ScrollAnimationWrapper>
                 <ScrollAnimationWrapper>
                     <motion.div className="flex flex-col items-center justify-center ml-auto w-full px-4" variants={scrollAnimation}>
                         <h2 className="text-3xl lg:text-4xl font-medium leading-relaxed text-black-600">
-                            SE UN SPONSOR
+                            Pauta Con Nosotros
                         </h2>
+                        
                         <Formulario />
                     </motion.div>
                 </ScrollAnimationWrapper>
@@ -48,8 +47,8 @@ const PautaSmartRacing = () => {
                         Llega a nuevos publicos y posicionate en nuevos mercados{" "}
                     </motion.h3>
                     <motion.p className="leading-normal  mx-auto my-2 w-10/12 sm:w-7/12 lg:w-6/12" variants={scrollAnimation}>
-                        Llega a nuevos publicos y posicionate en nuevos mercados mediante espacios de inmerción y recordación, 
-                        Fortalece tu precencia digitál y posicionamento de marca con una valla publicitaria en SmartRACING
+                        Llega a nuevos públicos y posiciónate en nuevos mercados mediante espacios de inmersión y recordación, 
+                        Fortalece tu presencia digital y posicionamiento de marca con una valla publicitaria en SMartRACING
                     </motion.p>
                 </ScrollAnimationWrapper>
                 <ScrollAnimationWrapper>
