@@ -56,7 +56,7 @@ const SmartRacing = () => {
                 </ScrollAnimationWrapper>
                 <ScrollAnimationWrapper>
                     <motion.div className="py-12 w-full px-4 mt-4" variants={scrollAnimation}>
-                        <YoutubeVideo videoId="Mdi5BDRCLYc" />
+                        <YoutubeVideo videoId="I1MALrSg0AU" />
                     </motion.div>
                 </ScrollAnimationWrapper>
             </div>
