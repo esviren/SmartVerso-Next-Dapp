@@ -52,7 +52,7 @@ const Contact = () => {
             Calle. 53 #43 - 65 Oficina 202
           </p>
           <h5 className="mb-8 text-black-500 text-justify">
-            (Segundo Piso Lentejs Express)
+            (Segundo Piso  De Lenteja Express)
           </h5>   
           <Link href="https://wa.link/iqfl4f">
             <a>

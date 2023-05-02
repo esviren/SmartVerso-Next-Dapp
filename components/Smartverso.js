@@ -25,7 +25,7 @@ const Smartverso = () => {
             <motion.h3
               variants={scrollAnimation}
               className="text-2xl sm:text-3xl lg:text-4xl font-medium text-black-600 leading-relaxed w-9/12 sm:w-6/12 lg:w-4/12 mx-auto">
-              SmartVerso Educación sin límites{" "}
+              SmartVerso sin límites{" "}
             </motion.h3>
             <motion.p className="leading-normal  mx-auto my-2 w-10/12 sm:w-7/12 lg:w-6/12" variants={scrollAnimation}>
               Es un orgullo para nosotros, presentarles nuestro propio espacio en el mundo de los metaversos, llamado SmartVerso, 
