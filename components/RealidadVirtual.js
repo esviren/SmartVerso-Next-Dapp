@@ -43,9 +43,9 @@ const RealidadVirtual = () => {
             Desarrollo de Realidad Virtual
           </h3>
           <p className="my-2 text-black-500 text-justify">
-          En Smart Lab, ofrecemos una variedad de juegos de realidad virtual emocionantes para todas las edades. 
-          Desde juegos de aventuras hasta juegos de carreras y juegos de estrategia, tenemos algo para todos. 
-          Nuestros juegos son desarrollados por expertos en tecnología y diseño para garantizar la mejor calidad y experiencia. 
+          En Smart Lab, ofrecemos una variedad de experiencias de realidad virtual emocionantes para todas las edades. 
+          Desde experiencias de aventuras hasta experiencias de carreras y experiencias de estrategia, tenemos algo para todos. 
+          Nuestros experiencias son desarrollados por expertos en tecnología y diseño para garantizar la mejor calidad y experiencia. 
           ¡Ven a visitarnos y sumérgete en nuevos mundos emocionantes!
           </p>
           <ul className="text-black-500 self-start list-inside ml-8">

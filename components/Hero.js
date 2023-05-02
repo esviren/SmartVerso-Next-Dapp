@@ -41,8 +41,9 @@ const Hero = ({
                 Laboratorio SmartLab <strong>Más alla de las fronteras</strong>.
               </h1>
               <p className="text-black-500 text-justify mt-4 mb-6">
-                crecimiento social y educativo por medio de las nuevas tecnologías,
-                 como lo son la realidad virtual, la realidad aumentada, la
+              Con el laboratorio de desarrollo de SmartLAB potenciamos el crecimiento
+               empresarial, institucional y social por medio de las nuevas tecnologías,
+                como lo son la realidad virtual, la realidad aumentada, la
                 realidad mixta y las blockchain.
               </p>
               <Link href="/servicios">
