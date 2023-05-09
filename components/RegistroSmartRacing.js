@@ -19,7 +19,7 @@ const PautaSmartRacing = () => {
             <div className="grid grid-flow-row sm:grid-flow-col grid-cols-1 sm:grid-cols-2 gap-4 y-8 mb-8  mt-36">
                 <ScrollAnimationWrapper className="flex w-full justify-end">
                     <motion.div className="h-full w-full px-4" variants={scrollAnimation}>
-                        <YoutubeVideo videoId="I1MALrSg0AU" />
+                        <YoutubeVideo videoId="rzTzqeLCUaM" />
                     </motion.div>
                 </ScrollAnimationWrapper>
                 <ScrollAnimationWrapper>
@@ -39,7 +39,7 @@ const PautaSmartRacing = () => {
                         Gana dinero Jugando{" SmartRACING"}
                     </motion.h3>
                     <motion.p className="leading-normal  mx-auto my-2 w-10/12 sm:w-7/12 lg:w-6/12" variants={scrollAnimation}>
-                    Obtén Ganancias reales mientras disfrutás de los paisajes Colombianos a máxima velocidad
+                    Obtén Ganancias Reales, mientras disfrutás de los paisajes Colombianos a máxima velocidad
                     </motion.p>
                 </ScrollAnimationWrapper>
                 <ScrollAnimationWrapper>
