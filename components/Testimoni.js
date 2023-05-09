@@ -25,7 +25,7 @@ const Testimoni = ({
       country: "PRODUCCIÓN",
       rating: "4.5",
       testimoni:
-        "Coporductor de Marketing Digital",
+        "Coproductor de Marketing Digital",
     },
     {
       name: "Jorge Alvarez",
