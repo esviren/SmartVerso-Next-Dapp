@@ -21,10 +21,10 @@ const ARfutas = [
 ];
 
 const ARMateadas = [
-    "5 Bananos",
-    "3 Aguacates",
-    "5 Kiwis",
-    "Una bola de helado"
+    "1 Cereza",
+    "Crema Chantilly",
+    "3 Bolas de Helado Batidas",
+    "Salsa De Chocolate"
   ];
 
 const ARModelViewer = dynamic(
@@ -125,22 +125,22 @@ const ARMenu = () => {
         <ScrollAnimationWrapper>
         <motion.div className="flex flex-col items-end justify-center ml-auto w-full lg:w-9/12" variants={scrollAnimation}>
           <h2 className="text-3xl lg:text-4xl font-medium leading-relaxed text-black-600">
-           Maltado Latte Oreo
+           Malteada Latte Oreo
           </h2>
           <ul className="text-black-500 self-start list-inside ml-8">
-            {ARfeatures.map((ARfeature, index) => (
+            {ARMateadas.map((ARMateada, index) => (
               <motion.li
                 className="relative circle-check custom-list"
                 custom={{duration: 2 + index}}
                 variants={scrollAnimation}
-                key={ARfeature}
+                key={ARMateada}
                 whileHover={{
                 scale : 1.1,
                 transition: {
                   duration: .2
                 }
                 }}>
-                  {ARfeature}
+                  {ARMateada}
               </motion.li>
               )
             )}
