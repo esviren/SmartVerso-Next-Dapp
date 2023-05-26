@@ -11,7 +11,7 @@ const HeroSmartRacing = () => {
       </div>
       <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center">
         
-        <div className="sm:mb-16 md:mb-1 lg:mb-1">
+        <div className="sm:mb-16 md:mb-4 lg:mb-4">
           <img className="object-cover w-full h-full sm:px-50" src="/assets/smart-racing-logo.png" alt="Smart Racing" />
         </div>
         <div className="sm:mt-16">
