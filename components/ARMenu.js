@@ -20,7 +20,7 @@ const ARfutas = [
   "Una bola de helado"
 ];
 
-const ARMateadas = [
+const ARMalteadas = [
     "1 Cereza",
     "Crema Chantilly",
     "3 Bolas de Helado Batidas",
@@ -53,7 +53,7 @@ const ARMenu = () => {
         <ScrollAnimationWrapper>
         <motion.div className="flex flex-col items-end justify-center ml-auto w-full lg:w-9/12" variants={scrollAnimation}>
           <h2 className="text-3xl lg:text-4xl font-medium leading-relaxed text-black-600">
-           Hamburguesa 125 Gramos
+           Ensalada De Frutas
           </h2>
           <ul className="text-black-500 self-start list-inside ml-8">
             {ARfutas.map((ARfuta, index) => (
@@ -73,6 +73,7 @@ const ARMenu = () => {
               )
             )}
           </ul>
+          <h3 className="text-2xl lg:text-2xl font-medium leading-relaxed text-black-600">$10.000 COP</h3>
         </motion.div>
         </ScrollAnimationWrapper>
       </div>
@@ -89,7 +90,7 @@ const ARMenu = () => {
         <ScrollAnimationWrapper>
         <motion.div className="flex flex-col items-end justify-center ml-auto w-full lg:w-9/12" variants={scrollAnimation}>
           <h2 className="text-3xl lg:text-4xl font-medium leading-relaxed text-black-600">
-           Hamburguesa 125 Gramos
+           Hamburguesa 125 Gr
           </h2>
           <ul className="text-black-500 self-start list-inside ml-8">
             {ARfeatures.map((ARfeature, index) => (
@@ -109,6 +110,7 @@ const ARMenu = () => {
               )
             )}
           </ul>
+          <h3 className="text-2xl lg:text-2xl font-medium leading-relaxed text-black-600">$20.000 COP</h3>
         </motion.div>
         </ScrollAnimationWrapper>
       </div>
@@ -128,23 +130,24 @@ const ARMenu = () => {
            Malteada Latte Oreo
           </h2>
           <ul className="text-black-500 self-start list-inside ml-8">
-            {ARMateadas.map((ARMateada, index) => (
+            {ARMalteadas.map((ARMalteada, index) => (
               <motion.li
                 className="relative circle-check custom-list"
                 custom={{duration: 2 + index}}
                 variants={scrollAnimation}
-                key={ARMateada}
+                key={ARMalteada}
                 whileHover={{
                 scale : 1.1,
                 transition: {
                   duration: .2
                 }
                 }}>
-                  {ARMateada}
+                  {ARMalteada}
               </motion.li>
               )
             )}
           </ul>
+          <h3 className="text-2xl lg:text-2xl font-medium leading-relaxed text-black-600">$15.000 COP</h3>
         </motion.div>
         </ScrollAnimationWrapper>
       </div>
