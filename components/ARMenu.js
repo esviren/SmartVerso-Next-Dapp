@@ -30,6 +30,14 @@ const ARCalentados = [
   "Tomate"
 ];
 
+const ARPizzas = [
+  "Masa Artesana",
+  "Queso Mozarella",
+  "Jamon Serrano",
+  "Albaca",
+  "Fina hierva"
+];
+
 const ARMalteadas = [
   "200 gramos de Carne de Res",
   "Papas Fritas", 
@@ -92,8 +100,8 @@ const ARMenu = () => {
         <ScrollAnimationWrapper className="flex w-full justify-end">
           <motion.div className="h-full w-full p-4" variants={scrollAnimation}>
             <ARModelViewer
-              src="/assets/3D/hamburger_2.glb"
-              ios_src="/assets/3D/hamburger_2.usdz"
+              src="/assets/3D/pizza.glb"
+              ios_src="/assets/3D/pizza.usdz"
               alt="Hamburguesa Comercio Experiencial AR"
             />
           </motion.div>
@@ -101,27 +109,27 @@ const ARMenu = () => {
         <ScrollAnimationWrapper>
         <motion.div className="flex flex-col items-end justify-center ml-auto w-full lg:w-9/12" variants={scrollAnimation}>
           <h2 className="text-3xl lg:text-4xl font-medium leading-relaxed text-black-600">
-           2 Hamburguesa 125 Gr
+           Pizza Jamon Serrano
           </h2>
           <ul className="text-black-500 self-start list-inside ml-8">
-            {ARfeatures.map((ARfeature, index) => (
+            {ARPizzas.map((ARPizza, index) => (
               <motion.li
                 className="relative circle-check custom-list"
                 custom={{duration: 2 + index}}
                 variants={scrollAnimation}
-                key={ARfeature}
+                key={ARPizza}
                 whileHover={{
                 scale : 1.1,
                 transition: {
                   duration: .2
                 }
                 }}>
-                  {ARfeature}
+                  {ARPizza}
               </motion.li>
               )
             )}
           </ul>
-          <h3 className="text-2xl lg:text-2xl font-medium leading-relaxed text-black-600">$35.000 COP</h3>
+          <h3 className="text-2xl lg:text-2xl font-medium leading-relaxed text-black-600">$42.000 COP</h3>
         </motion.div>
         </ScrollAnimationWrapper>
       </div>
@@ -154,6 +162,43 @@ const ARMenu = () => {
                 }
                 }}>
                   {ARMalteada}
+              </motion.li>
+              )
+            )}
+          </ul>
+          <h3 className="text-2xl lg:text-2xl font-medium leading-relaxed text-black-600">$35.000 COP</h3>
+        </motion.div>
+        </ScrollAnimationWrapper>
+      </div>
+      <div className="grid grid-flow-row sm:grid-flow-col grid-cols-1 sm:grid-cols-2 gap-4 p  y-8 my-8">
+        <ScrollAnimationWrapper className="flex w-full justify-end">
+          <motion.div className="h-full w-full p-4" variants={scrollAnimation}>
+            <ARModelViewer
+              src="/assets/3D/hamburger_2.glb"
+              ios_src="/assets/3D/hamburger_2.usdz"
+              alt="Hamburguesa Comercio Experiencial AR"
+            />
+          </motion.div>
+        </ScrollAnimationWrapper>
+        <ScrollAnimationWrapper>
+        <motion.div className="flex flex-col items-end justify-center ml-auto w-full lg:w-9/12" variants={scrollAnimation}>
+          <h2 className="text-3xl lg:text-4xl font-medium leading-relaxed text-black-600">
+           2 Hamburguesa 125 Gr
+          </h2>
+          <ul className="text-black-500 self-start list-inside ml-8">
+            {ARfeatures.map((ARfeature, index) => (
+              <motion.li
+                className="relative circle-check custom-list"
+                custom={{duration: 2 + index}}
+                variants={scrollAnimation}
+                key={ARfeature}
+                whileHover={{
+                scale : 1.1,
+                transition: {
+                  duration: .2
+                }
+                }}>
+                  {ARfeature}
               </motion.li>
               )
             )}
