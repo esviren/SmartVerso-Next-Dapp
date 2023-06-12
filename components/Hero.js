@@ -32,40 +32,44 @@ const Hero = ({
       className="max-w-screen-xl mt-32 px-8 xl:px-16 mx-auto"
       id="about"
     >
-      <ScrollAnimationWrapper>
+      <div className="grid grid-flow-row sm:grid-flow-cols-1 grid-rows-2 md:grid-rows-1 sm:grid-cols-2 gap-8 pt-6 sm:pt-4">
+
+        <div className=" flex flex-col justify-center items-start  sm:pt-4">
+          <h1 className="text-3xl lg:text-4xl xl:text-5xl font-medium text-black-600 leading-normal">
+            Laboratorio SmartLab <strong>Más alla de las fronteras</strong>.
+          </h1>
+          <p className="text-black-500 text-justify mt-4 mb-6">
+            Con el laboratorio de desarrollo de SmartLAB potenciamos el crecimiento
+            empresarial, institucional y social por medio de las nuevas tecnologías,
+            como lo son la realidad virtual, la realidad aumentada, la
+            realidad mixta y las blockchain.
+          </p>
+          <Link href="/servicios">
+            <a>
+              <ButtonPrimary>Servicios</ButtonPrimary>
+            </a>
+          </Link>
+        </div>
+        <div className="flex w-full ">
+          <motion.div className="h-full w-full sm:mb-4 sm:pb-4" variants={scrollAnimation}>
+            <Image
+              className="h-full w-full sm:mb-4 sm:pb-4"
+              src="/assets/smartlab_img1.png"
+              alt="SmartLab illustration"
+              quality={100}
+              width={612}
+              height={383}
+              layout="responsive"
+            />
+          </motion.div>
+        </div>
+      </div>
+      {/* <ScrollAnimationWrapper>
           <motion.div
             className="grid grid-flow-row sm:grid-flow-cols-1 grid-rows-2 md:grid-rows-1 sm:grid-cols-2 gap-8 pt-6 sm:pt-4"
             variants={scrollAnimation}>
-            <div className=" flex flex-col justify-center items-start  sm:pt-4">
-              <h1 className="text-3xl lg:text-4xl xl:text-5xl font-medium text-black-600 leading-normal">
-                Laboratorio SmartLab <strong>Más alla de las fronteras</strong>.
-              </h1>
-              <p className="text-black-500 text-justify mt-4 mb-6">
-              Con el laboratorio de desarrollo de SmartLAB potenciamos el crecimiento
-               empresarial, institucional y social por medio de las nuevas tecnologías,
-                como lo son la realidad virtual, la realidad aumentada, la
-                realidad mixta y las blockchain.
-              </p>
-              <Link href="/servicios">
-                <a>
-                  <ButtonPrimary>Servicios</ButtonPrimary>
-                </a>
-              </Link>
-            </div>
-            <div className="flex w-full ">
-              <motion.div className="h-full w-full sm:mb-4 sm:pb-4" variants={scrollAnimation}>
-                <Image
-                  src="/assets/smartlab_img1.png"
-                  alt="SmartLav illustration"
-                  quality={100}
-                  width={612}
-                  height={383}
-                  layout="responsive"
-                />
-              </motion.div>
-            </div>
           </motion.div>
-      </ScrollAnimationWrapper>
+      </ScrollAnimationWrapper> */}
       <div className="relative w-full flex">
         <ScrollAnimationWrapper
           className="rounded-lg w-full grid grid-flow-row sm:grid-flow-row grid-cols-1 sm:grid-cols-3 py-9 divide-y-2 sm:divide-y-0 sm:divide-x-2 divide-gray-100 bg-white-500 z-10">
