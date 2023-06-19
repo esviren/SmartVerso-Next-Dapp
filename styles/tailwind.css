@@ -81,6 +81,22 @@ model-viewer {
   --poster-color: #ffffff00;
 }
 
+model-viewer button {
+  @apply grid place-items-center px-2 pb-2 mb-4 align-text-top;
+  position: fixed;
+  left: 30%;
+  width: 40%;
+  bottom: 0px;
+  border-radius: 6px;
+  border-color: #31f3f3;
+  background:Linear-gradient(90deg, #31f3f38a, #ff3fffab ); 
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  --poster-color: #ffffff00;
+  backdrop-filter: saturate(150%) blur(7px);
+  box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.13);
+
+}
 
 
 .boton-ar {
