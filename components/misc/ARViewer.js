@@ -18,7 +18,7 @@ const ARModelViewer = ({ src, ios_src, alt }) => {
       camera-controls
       xr-environment
     >
-      <button className="justify-center">
+      <button slot="ar-button" className="justify-center">
       <Image
         src={"/assets/camara-armin.png"}
         height={48}
