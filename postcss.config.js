@@ -1,6 +1,11 @@
 const purgecss = [
   "@fullhuman/postcss-purgecss",
   {
+    i18n: {
+      locales:["en","es"],
+      deafaultLocale: "es",
+      localeDetection: false
+    },
     content: [
       "./pages/*.js",
       "./pages/**/*.js",
