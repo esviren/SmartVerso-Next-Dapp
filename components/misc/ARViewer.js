@@ -17,6 +17,7 @@ const ARModelViewer = ({ src, ios_src, alt }) => {
       shadow-intensity="1"
       camera-controls
       xr-environment
+      ar-button
     >
       <button slot="ar-button" className="justify-center">
       <Image
